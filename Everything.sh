@@ -7,6 +7,14 @@ https://shortcutworld.com/en/Windows/10/win/all
 https://www.tecmint.com/vi-editor-usage/
 chrome://flags
 
+echo "# JavaScript" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/walherb/JavaScript.git
+git push -u origin main
+
 http://kb.vmware.com/kb/2073803 
 open-vm-tools
 mount /dev/cdrom /mnt/cdrom
