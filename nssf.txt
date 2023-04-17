@@ -1,0 +1,2077 @@
+﻿100 NSSF -- 8711200197718 NSSF BALANCE 10,756,889 AFTER 2 YRS 32,000,000 7013  0800 286773 -- Toll Free
+NSSF @ END OF MARCH 11,206,949
+TIN -- 1001308780 202104  202107 202112 asterisk2021/24
+TIN -- 1000066303 WILTA CARGO SERVICES LIMITED
+TIN -- 1000059368 LINE AGENCY (U) LIMITED  -- Baptist Wanji
+SNID:  22213449816 - Acer Laptop	XEN/kyu@dicts2014
+Heroku/Asterisk@202110
+AWS/Asterisk@2021
+WSL2004/Asterisk@2021
+OneDrive/Asterisk@21680
+
+07/April/2023 07:45 -> {Started Learning Web Programming with React JS}
+
+VS Code Extensions 
+Auto Rename Tag
+Highlight Matching Tag
+
+https://www.youporn.com/watch/14696309/horny-ebony-hot-babe-jezabel-vessir-gets-her-juicy-pussy-filled/
+https://www.youporn.com/watch/15852442/bangbros-ebony-gf-plays-video-games-while-getting-fucked-from-the-back/
+https://www.youporn.com/watch/16265944/he-fucks-his-wife-doggystyle-after-coming-back-from-a-trip/
+https://www.youporn.com/watch/15952382/an-hard-big-white-dick-for-a-slut-ebony-milf/
+
+lscpu
+Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+HP EliteOne 800 G4 23.8-in Touch AiO
+
+Serial Number: CZC83978HF
+Product Number: 3CJ74AV
+
+%LOCALAPPDATA%\Google\Chrome
+
+22621.1485	KB5023778
+TeamViewer { ID: 1 729 941 492, Password: amg4tqu7, dzh5yaqh }
+
+https://www.tecmint.com/how-to-open-extract-and-create-rar-files-in-linux/
+https://www.bezkoder.com/node-js-jwt-authentication-postgresql/
+https://www.bezkoder.com/node-js-pagination-postgresql/
+https://www.bezkoder.com/sequelize-associate-many-to-many/
+https://www.bezkoder.com/react-typescript-axios/
+
+
+----------------- Udemy: { John Smilga @Coding Addict on YouTube, https://johnsmilga.com/ } ------------
+React 18 Tutorial and Projects Course (2023)
+NodeJS Tutorial and Projects Course (2023)
+Javascript Tutorial and Projects Course (2023)
+HTML&CSS Tutorial and Projects Course 2023 (Flexbox&Grid)
+MERN Stack Course 2023 - MongoDB, Express, React and NodeJS
+
+D:\STUDY\JavaScript\NodeJS\BezKoder\app\models\index.js:27
+db.tutorials = require('./tutorial.model.js')(sequelize, Sequelize);
+
+TypeError: require(...) is not a function
+    at Object.<anonymous> (D:\STUDY\JavaScript\NodeJS\BezKoder\app\models\index.js:27:46)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\STUDY\JavaScript\NodeJS\BezKoder\server.js:19:12)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+
+
+5000 	- 75,000
+3000 	- 50,000
+1300 	- 30,000
+200 	- 10,000
+90		- 5,000
+
+-- ALTER TABLE person ADD COLUMN car_id BIGINT REFERENCES car (id), UNIQUE(car_id);
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Command Processor] -> Add new String Value: Autorun -> change value to chcp 1252
+
+netsh wlan show profiles
+netsh wlan show profile name="Data-Centre" key=clear
+
+
+Library Genesis -- libgen.is
+CRUD Tutorial - ReactJS, NodeJS, MySQL [Part 3]
+Developing Modern Database Applications with PostgreSQL
+PostgreSQL 14 Administration Cookbook - Over 175 Proven Recipes for Database Administrators to Manage Enterprise Databases Effectively
+Learn PostgreSQL: Build and Manage High-Performance Database Solutions Using PostgreSQL 12 and 13
+Learning DevOps: A comprehensive guide to accelerating DevOps culture adoption with Terraform, Azure DevOps, Kubernetes, and Jenkins 
+
+HP ProBook 450 G8
+
+Cloud Native Security Cookbook
+MySQL Cookbook
+Restful Web API Patterns & Practices Cookbook
+Google Cloud Cookbook
+
+nvm install 6.7 --reinstall-packages-from=6.4
+nvm uninstall OLD_VERSION
+nvm install stable --reinstall-packages-from=current
+nvm ls-remote
+nvm install "lts/*" --reinstall-packages-from="$(nvm current)" (*****)
+nvm ls
+nvm alias default x.y.z
+
+tmux new -s {sql, node}
+tmux {(sql, node)} tmux attach -t ${abc}
+
+npm list 
+npm list --depth=n 
+npm list --prod 
+npm list --dev
+npm list -g --depth=0	(*****)
+ls `npm root -g`
+
+wget -O- https://apt.releases.hashicorp.com/gpg | gpg --dearmor | sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+sudo apt update && sudo apt install terraform
+
+https://forum.codewithmosh.com/
+
+https://www.thekonsulthub.com/driving-permit-fees-uganda-costs/
+
+---------------------------- {JavaScript Projects} ----------------------------------------
+https://www.youtube.com/watch?v=K8Rh5x3c9Pw&list=PLpwngcHZlPadhRwryAXw3mJWX5KH3T5L3 :CodingNepal
+https://www.youtube.com/watch?v=UtaGNP7k4kA&list=PLajjpPyc2dmbt0KebBvT9VQV8y2R_IO7j :OnClick Media 
+https://www.youtube.com/watch?v=cOUNOi297Mw&list=PLNCevxogE3fgy0pAzVccadWKaQp9iHspz :Coding Artist
+https://www.youtube.com/watch?v=rHOBhXmpOyQ
+
+https://1337x.to/user/thomaskhan/
+https://1337x.to/user/abidmail/
+https://www.udemy.com/course/the-perfect-nginx-server-ubuntu-edition/
+
+https://codingartistweb.com/
+
+S -- Single Responsibility 
+O -- Open/Closed 
+L -- Liskov Substitution
+I -- Interface Segregation
+D -- Dependency Inversion
+
+0756409243
+0752030554
+0763300231
+
+# tmux new -s admin
+# tmux attach -t dev
+# tmux switch -t admin
+
+leetCode 
+codewars
+hackerRank
+TopCoder 
+
+Debugging JavaScript - Chrome DevTools 101 -> YouTube Channel {: Google Chrome Developers}
+
+https://vacancies.psc.go.ug/ors/
+
+Euniqa: JavaScript YouTube Channel
+
+How to ACTUALLY LEARN using programming tutorials!
+
+Locate the Sources section
+Deselect "Enable JavaScript source maps"
+
+Your order ID: 128014827 -> React Code With Mosh
+
+const result = (num % 2  != 0) ? "Odd" : "Even";
+https://gigacourse.com/wp-content/uploads/2023/03/GigaCourse.Com-Udemy%20-%20Java%20Programming%20Masterclass%20updated%20to%20Java%2017.torrent
+
+21138732
+tmux 
+ctrl+b d 
+tmux attach
+
+0753254938
+
+aria2c -i --seed-ratio
+
+youtube.com/c/code2020
+
+Dism /online /Disable-Feature /FeatureName: MicrosoftWindowsPowerShellV2Root
+Dism /online /Enable-Feature /FeatureName: MicrosoftWindowsPowerShellV2Root
+%ProgramData%\Microsoft\Windows\Start Menu\Programs\StartUp
+
+sfc /scannow
+DISM /Online /Cleanup-Image /CheckHealth
+DISM /Online /Cleanup-Image /ScanHealth
+DISM /Online /Cleanup-Image /RestoreHealth
+mrt -- Microsoft Windows Malicious Software Removal Tool 
+msdt.exe -id
+
+// this script used to check if the number is even or odd
+const num = 6;
+const result = (num % 2  != 0) ? "odd" : "even";
+// display the result
+console.log(`Number is ${result}.`);
+
+Codewars
+Wondershare Filmora
+
+npm install -g typescript
+tsc --version
+
+3 - yrs back
+57:root
+
+
+mysqldump: [Warning] Using a password on the command line interface can be insecure.
+mysqldump: Got error: 1142: SELECT, LOCK TABLES command denied to user 'root'@'localhost' for table 'accounts' when using LOCK TABLES
+
+chattr -R +i  walusih/
+KYAMBOGO WEBSITE BACKUP 03 MARCH 2023'
+
+
+----- 5 High Level Skills & Traits For Programmers --------
+1. Patience
+2. Motivation
+3. Problem Solving  
+4. Communication
+5. Willingness to Learn
+
+- Faculty Administrator
+- Dean -> Senate ->  
+
+JavaScript Syntax Extension (JSX)
+
+0757870832
+"commandline": "mongosh  \"mongodb://<credentials>@<mongodb-instance>/<database-name>\""
+
+MongoDB
+show dbs 
+use rent 
+db.createCollection("students")
+db.students.insertOne({''rollno:1, "name":"sunita"})
+show collections
+db.students.find().pretty()
+db.students.drop()
+
+use admin
+> db.createUser(
+{
+	user: "admin123",
+	pwd: "pass123",
+	roles: [ { role: "userAdminAnyDatabase", db: "admin"}]
+})
+
+node -e "require('repl').start({ignoreUndefined: true})"
+
+--- The 5 Steps To Become A Software Engineer ---
+1.Master Basics
+2.Write Clean and Efficient Code 
+3.Learn Software Engineering Tools
+4.Get Into Advanced Programing 
+5.Learn Software Design and Architecture
+
+--- How To Learn Programming Languages and Frameworks FAST ---
+Step 1: Get an Overview
+Step 2: List Topics
+Step 3: Learn the Topics 
+Step 4: Apply Your Knowledge
+Step 5: Repeat
+
+
+---- The Self Taught Developer Checklist ----
+- General Programming
+- Data Structures and Algorithms 
+- Design 
+- Tools 
+- Databases
+- Web Technologies
+
+Everything -> Tools -> Options -> Indexes -> Force Build    
+
+C:\Users\walas\AppData\Roaming\IDM\DwnlData\walas
+
+https://www.youtube.com/watch?v=8LNb18ibNGs&list=PLpPqplz6dKxVEqex8RMhgZUUe5_Sc6QHa
+
+Build a MERN React Admin Dashboard - Redux Toolkit Query, Backend Focus, Deployment, Data Modeling
+
+https://youtubemultidownloader.net/playlists.html
+
+0726266204
+
+Build -- 
+IDM   -- Dec 26 3:32:36 2022
+
+009 - Linking a JavaScript File 
+
+Typescript Course in React
+TypeScript Tutorial For JavaScript Developers - Typescript
+To do List in ReactJS using TypeScript Tutorial 
+Why You SHould be using TypeScript wth React
+ReactJS Course[13] 
+
+https://www.youtube.com/watch?v=UljGkm2ikdY&list=PLrk5tgtnMN6TYBW0-U4YhIRyYEVpqVEnJ
+
+https://footyfull.com/premier-league/arsenal-vs-manchester-united-22-01-2023/
+https://footyfull.com/
+
+http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion/book/5572981/85a926
+
+22H2 19045.2604
+
+ethlomycin
+flu cup
+
+<script src="https://kit.fontawesome.com/87c4f6d7ea.js" crossorigin="anonymous"></script>
+
+Lushanjiu Diet Tea
+
+Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings --> Go to -> "start" and type "Manage App Execution Aliases". Go to it and turn off "Python"
+
+4,306,547.00
+504,643.00
+
+504643 -- 4306547 -- 1921470
+
+ERROR: column "datlastsysoid" does not exist
+LINE 1: SELECT DISTINCT datlastsysoid FROM pg_database
+
+pg_restore -U postgres -p 5433 -d dvdrental dvdrental.tar
+
+0772322909
+0785533625
+
+97 Things Every Java Programmer Should Know
+
+Introducing GitHub: A Non-Technical Guide
+
+~40MB /Videos
+The Self-Taught Programmer (e-book no clear copy on z-lib.org)
+
+Pyaar Impossible - 
+https://codingbat.com/
+https://www.codeabbey.com/
+“JGsoft” in RegexBuddy
+
+-------------------- Windows 11 Pro ----------------------
+You don´t need an online account if you choose "Setup for work or school",
+"Sign-in options" and then "Domain join instead".
+https://lookimg.com/image/QgJhBn
+
+https://www.2daygeek.com/aria2-linux-command-line-download-utility-tool/
+
+0701476382
+
+#FRIDAY |DELIVERANCE SERVICE | SHIFTING TO NEW LEVELS | PR.HOPE MUSANYUSA| 30-09-2022
+
+timedatectl list-timezones
+Africa/Kampala
+timedatectl set-timezone Africa/Kampala
+
+21138732 -- NWSC -- Phasing Out Physical Bills (29/09/2022 @15:38) -> +256313315594
+0753763209 -- Goeffrey
+0707400289
+
+send add me to +256701573278 -- EDEN MIRACLE MINISTRIES
+
+sudo su
+koha-rebuild-zebra -f -a -b -v library
+
+Code Complete 2nd Edition -- 
+Skillshare - Building a VS Code clone with React (w - Redux + Typescript)
+
+https://script.spoken-tutorial.org/index.php/DSpace
+
+4302539
+
+ip route | grep default 
+
+courseweb.com
+https://devcourseweb.com
+https://coursewikia.com  
+https://courseboat.com 
+https://coursehulu.com
+https://courselala.com
+https://coursemega.com
+https://coursepig.com
+https://tutgator.com
+https://tutpig.com 
+https://tutsala.com  
+https://tutgee.com  
+https://appwikia.com 
+https://www.1337x.to
+https://torrentgalaxy.to
+
+Evangelism & Soul Winning 
+
+5 Tips to Ace Turing Live Coding 
+Read 
+Examples 
+Algorithm 
+Writing Code
+Optimising The Code
+
+1) Read carefully the question, clear all the confusions
+2) Create your own examples on whiteboard or paper to better understand the problem
+3) Write Pseudo code or Algorithm ( Modularize your problem )
+4) Write code in your desire programming language
+5) Optimise the code
+
+Wedding OST.docx
+Flowergirl
+1. Rafaela Zalwango
+2. Renalda Nabiseere
+
+Peg Boy 
+1. Hithiri Kimera
+0705428695 - Dorcas
+0772192997 - Dorothy
+0782247421 - Kisitu Lawrence 
+0702480155 - Isaac Kimuli
+0772845818 - Oliver 
+
+Resty Nalubulwa 
+Immaculate Akugizibwe 
+Immylin Nassuna 
+Victoria Nanswa 
+
+dios obrador de milagros -> miracle working god
+
+Kyambogo	10308
+41,396,000 60 1,855,000
+36,492,000 55 1,700,000
+
+2 Chronicles 7:14
+
+19044.1766
+Netflix Clone YouTube Traversy Media
+
+Nitro PDF Pro: {105610477005519719, }
+
+Windows Update Checker/Project 
+
+9030017494189 -- 
+
+https://medium.com/codex/how-to-pimp-my-powerline-in-powershell-156f4e4936e
+https://www.hanselman.com/blog/my-ultimate-powershell-prompt-with-oh-my-posh-and-the-windows-terminal
+CaskaydiaCove Nerd Font
+
+CaskaydiaCove NF
+psEdit $PROFILE.AllUsersAllHosts
+oh-my-posh --init --shell pwsh --config E:\STUDY\ohmyposhv3-2.json | Invoke-Expression
+Start-Process Powershell -Verb runAs
+Import-Module posh-git
+
+Import-Module 'E:\STUDY\GIT\posh-git\src\posh-git.psd1'
+Import-Module -Name Terminal-Icons
+Set-PoshPrompt -Theme Paradox
+
+Import-Module posh-git
+Import-Module oh-my-posh
+Set-PoshPrompt -Theme slim
+
+Install-Module -Name Terminal-Icons -Repository PSGallery
+
+Get-PoshThemes
+
+(New-Object System.Drawing.Text.InstalledFontCollection).Families
+
+heroku login/ heroku login -i 
+frozen-bastion-51375
+heroku stack:set heroku-20 -a frozen-bastion-51375
+heroku stack:set heroku-20 -a stark-shelf-37466
+stark-shelf-37466
+Run git push heroku main to trigger a new build on ⬢ frozen-bastion-51375.
+npm install -g heroku
+git checkout -b main
+git checkout -b master
+git push heroku main
+git push heroku master
+heroku git:remote -a frozen-bastion-51375
+heroku git:remote -a stark-shelf-37466
+
+git status
+git add -A
+git commit -m "code"
+git push heroku master:main
+
+Application ID: W000442700
+
+Video Renting App {Java}
+
+https://www.codejava.net/coding/how-to-compile-and-run-a-java-program-with-sublime-text-3
+Java.sublime-build
+{
+    "shell_cmd": "javac $file && java $file_base_name"
+}
+
+-- Intermediates/Experts
+1. Effective Java (3rd Edition) (Java 9, 2018)
+2. Java: The Complete Reference (11th Edition)
+3. Thinking in Java (4th Edition)
+
+1. Head First Java (Java 5)
+2. Core Java by Cay Horstmann (2019)
+
+Introduction to Java™ Programming, Brief Version, Eleventh Edition, Global Edition (2019)
+Head First Design Patterns, 2nd Edition (2021)
+Java Programming From Problem Analysis to Program Design (2012)
+
+
+1. Head First Java 
+2. Java: A Beginner’s Guide
+3. Java for Dummies (8th Edition) (Java 17, 2022) {http://javafordummies.allmycode.com}
+4. Effective Java (*****)
+5. Head First Design Patterns 
+
+6. Spring in Action
+7. Clean Code  
+8. Test Driven: TDD and Acceptance TDD for Java Developers 
+9. Test-Driven Java Development
+10. Thinking in Java 
+
+summerofcode.withgoogle.com/programs/2022/organizations
+Yiga Herbert {OpenSource Communities}  -- {Google Summer of Code} June - /November/December (19/04/2022)
+
+Debian: 10.136.0.225, kelms:wlandicts2014
+
+MongoDB Compass port:27017
+
+2015921810
+
+hwalusimbi@kyu.ac.ug: dicts2021
+walherb@gmail.com: dicts2021
+
+Net Month Sunday 1/05/2022  -- Baptism at Kabuuma
+
+https://7thzero.com/blog/windows-10-will-not-connect-wpa2-enterprise-after-november-update
+Open RegEdit
+Create this DWORD:
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RasMan\PPP\EAP\13\TlsVersion
+Set the value to C0 (That's the letter "C" and the number Zero (0))
+Restart your computer
+
+reg delete HKCR\CLSID\{988248f3-a1ad-49bf-9170-676cbbc36ba3} /va /f
+netcfg -v -u dni_dne
+
+netsh winsock reset
+netsh int ip reset
+ipconfig /release
+ipconfig /renew
+ipconfig /flushdns
+
+https://www.cloudsigma.com/installing-and-securing-phpmyadmin-on-ubuntu-18-04/
+https://phoenixnap.com/kb/install-phpmyadmin-ubuntu
+https://linuxize.com/post/how-to-install-and-secure-phpmyadmin-with-apache-on-ubuntu-18-04/
+https://www.howtoforge.com/tutorial/ubuntu-apache-phpmyadmin-installation/
+sudo ufw allow 3306
+sudo ufw allow 5433
+sudo ufw status numbered
+sudo ufw status verbose
+sudo ufw delete 8
+sudo ufw delete 15
+
+sudo mysql -u root -p
+SELECT user,authentication_string,plugin,host FROM mysql.user;
+SET PASSWORD 'root'@'localhost'=PASSWORD('Moodle@2022');
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Kich@kyu2021';
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Moodle@2022';
+sudo apt install phpmyadmin php-mbstring php-gettext
+sudo phpenmod mbstring
+CREATE USER 'UserName'@'localhost' IDENTIFIED BY 'PassWord';
+GRANT ALL PRIVILEGES ON *.* TO 'phpmyadmin'@'localhost' WITH GRANT OPTION;
+/etc/mysql/mysql.conf.d
+SHOW GLOBAL VARIABLES LIKE 'PORT';
+
+196.43.144.42/phpmyadmin
+MySQL Access: username:root pswd:Kich@kyu2021
+Phpmyadmin Access: username:phpmyadmin pswd:Kich@kyu2022
+Initial Access to Phpmyadmin Panel: username:admin pswd:Kich@kyu2022
+
+sudo nano /etc/apache2/conf-available/phpmyadmin.conf
+sudo systemctl restart apache2
+sudo nano /usr/share/phpmyadmin/.htaccess
+sudo htpasswd -c /etc/phpmyadmin/.htpasswd admin
+
+0704305855
+0702344962
+0782344962
+
+Google Scholar for Dspace Repository (KYUSpace)
+
+https://wiki.duraspace.org/display/DSPACE/Ugandan+DSpace+User+Group
+
+https://duraspace.org/registry/register-your-site/
+
+https://kyuspace.kyu.ac.ug/oai/request?verb=Identify
+
+1.Handle --
+2. 
+
+Ports to be opened for dspace handle: TCP/UDP -- 2641
+HTTP Interface - 8000  
+
+10.1.1.82
+196.43.185.3
+
+0703100021/0705923763
+
+php -i|findstr "Thread"
+php -i|grep Thread
+<?php echo phpinfo(); ?>
+
+Apache + LoadModule: Thread Safe
+Apache + FastCGI: Non-Thread Safe
+IIS: Thread Safe
+IIS + FastCGI: Non-Thread Safe
+
+sc queryex type= service state= active 
+
+https://stackoverflow.com/questions/59530576/sqlite3-and-pdo-sqlite-not-loaded-in-php-apache2-localhost-but-loaded-in-php-cmd
+php_sqlite3.dll
+php_curl.dll
+php_pdo_sqlite.dll
+
+sudo /HOME/Build/dspace/Build/bin/dspace filter-media -v -f -m 1000 -p "ImageMagick PDF Thumbnail"
+sudo /HOME/Build/dspace/Build/bin/dspace filter-media -v -f -m 1000 -p "ImageMagick Image Thumbnail"
+
+$ sudo sysctl -w net.ipv6.conf.all.disable_ipv6=1
+$ sudo sysctl -w net.ipv6.conf.default.disable_ipv6=1
+/etc/default/grub
+TO:
+GRUB_CMDLINE_LINUX_DEFAULT="ipv6.disable=1"
+GRUB_CMDLINE_LINUX="ipv6.disable=1"
+sudo update-grub
+
+-*-*- Download Python 3.10.2
+echo $null >> slide.py
+New-Item -ItemType file swings.py
+
+0771241873 -- Olivia Nasejje
+
+sudo subscription-manager list --installed
+Get-service | Where-Object {$_.Status -eq "Running"}
+sudo yum search python3 | more
+sudo yum install python3
+sudo yum module install python36
+type -a python3
+command -V python3
+
+yum install python39
+nproc
+
+#!/usr/bin/env python3
+
+[all:vars]
+ansible_user=vivek
+ansible_port=22
+ansible_python_interpreter='/usr/bin/env python3'
+
+python3.9 is /usr/bin/python3.9
+sudo alternatives --set python /usr/bin/python3.9
+
+sudo alternatives --set python /usr/bin/python3
+python --version
+
+python3.9 -m pip install --upgrade pip
+
+sudo rm -rf /usr/local/bin/python3* /usr/local/bin/pydoc3 /usr/local/lib/python3.1 /usr/local/include/python3.1      /usr/local/lib/pkgconfig/python3.pc /usr/local/lib/libpython3.1.a
+
+python3 rpm -qa|grep python3|xargs rpm -ev --allmatches --nodeps uninstallpyhton3 whereis python3 |xargs rm -fr
+sudo yum remove python3
+sudo yum autoremove
+
+/usr/local/bin/python3.10 -m pip install --upgrade pip
+python3.10 -m pip install --upgrade pip --ignore-installed
+python3.10 -m pip install --upgrade --force-reinstall pip
+
+pip install -r requirements.txt
+
+sha256sum <name>.iso
+
+YouTube Web Channels
+Keep coding 
+Kevin Powell
+
+196.43.144.6  -- KYUSpace
+196.43.144.29
+
+1.With the google app opened, tap on your profile picture and then select Settings
+2.tap on the voice option
+3.select offline speech recognition
+4.choose the auto-update tab
+5.tap on the auto-update languages at any time option
+6.confirm that you are connected to a wifi network, then go back to the installed tab 
+7.tap on the language that is not updating, english (us) in this case
+8.press the update button
+
+sudo dnf install gcc openssl-devel bzip2-devel libffi-devel zlib-devel wget make -y
+wget https://www.python.org/ftp/python/3.10.2/Python-3.10.2.tar.xz
+tar -xf Python-3.10.2.tar.xz
+cd Python-3.10.2 && ./configure --enable-optimizations
+make -j 4
+sudo make altinstall
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+21138732
+ip link 
+eth0
+nmap 10.1.1.51 -p 8080 -A
+
+%AppData%\Microsoft\Windows\Start Menu\Programs
+paletton.com -- For picking colors
+https://css-tricks.com/ -- CSS Tricks
+
+0700271446
+
+-Xms4096m  -Xmx8192m
+EditPadPro
+
+RHEL Ootpa (8.5) 4.18.0-348.2.1.el8_5.x86_64 
+sudo subscription-manager list
+
+Dreaming of food by lining up to get but waking up before eating it at high school or university.
+
+CM87023107LGKC
+
+0776620997
+SANYU LOY
+CF67075102R6JE
+01082788
+18/10/2021
+MUKONO
+UGANDA CHRISTIAN UNIVERSITY
+ALLAN GALPIN HEALTH CENTRE
+
+linkedin -- {:Asterisk@202112}
+wlandicts2014
+
+https://phoenixnap.com/kb/update-node-js-version  -- {12504}
+
+telnet localhost 80
+nc -zw3 10.1.1.45 80 && echo "opened" || echo "closed"
+nc -z 10.1.1.45 80 && echo "Opened" || echo "Closed"
+telnet 10.1.1.45 80
+netstat -tulpn | grep 80
+sudo lsof -i:80
+sudo ufw allow 80/tcp
+sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT
+sudo apt-get install iptables-persistent
+/etc/iptables/rules.v4
+
+yarn config:check:rest
+
+nohup yarn run serve:ssr > nohup.out &
+yarn run serve:ssr &
+disown
+
+sudo 
+yarn run serve:ssr & disown 
+sudo yarn run build:prod
+tail -f /var/log/tomcat9/catalina.2021-11-24.log 
+/opt/solr-8.11/bin/solr restart &
+/opt/solr-8.11/bin/solr start &
+Welcome to Node.js v14.18.1.
+https://computingforgeeks.com/install-node-js-14-on-ubuntu-debian-linux/
+sudo apt update
+sudo apt upgrade
+curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -
+cat /etc/apt/sources.list.d/nodesource.list
+sudo apt -y install nodejs
+node -v
+
+## Run `sudo apt-get install -y nodejs` to install Node.js 14.x and npm
+## You may also need development tools to build native addons:
+     sudo apt-get install gcc g++ make
+## To install the Yarn package manager, run:
+     curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | gpg --dearmor | sudo tee /usr/share/keyrings/yarnkey.gpg >/dev/null
+     echo "deb [signed-by=/usr/share/keyrings/yarnkey.gpg] https://dl.yarnpkg.com/debian stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+     sudo apt-get update && sudo apt-get install yarn
+
+curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+sudo apt update && sudo apt install yarn
+
+This likely means you have several @ngtools/webpack packages installed. You can check this with `npm ls @ngtools/webpack`, and then remove the extra copies.
+
+/HOME/Build/dspace/.npm/_logs/2021-12-07T09_27_32_377Z-debug-0.log
+
+# Locally in your project.
+npm install -D typescript
+npm install -D ts-node
+
+# Or globally with TypeScript.
+npm install -g typescript
+npm install -g ts-node
+
+# Depending on configuration, you may also need these
+npm install -D tslib @types/node
+
+
+    "prestart:dev": "yarn run config:dev",
+    "prebuild": "yarn run config:dev",
+    "pretest": "yarn run config:test",
+    "pretest:watch": "yarn run config:test",
+    "pretest:headless": "yarn run config:test",
+    "prebuild:prod": "yarn run config:prod",
+    "pree2e": "yarn run config:prod",
+    "start": "yarn run start:prod",
+	
+	@ngtools/webpack
+	
+	
+	npm install npm@latest 
+	npm outdated -g --depth=0
+	npm update -g @ngtools/webpack
+	npm update -g
+
+
+sudo systemctl restart tomcat9
+sudo systemctl stop tomcat9
+
+El Cuerpo del Deseo/Second Chance
+
+21138732 cuxp5
+
+504,644
+4,306,547
+481,119.1
+0772309173 - Yusuf Lule
++254708242135
+
+ID - 7493377535
+Pass - 654321
+
++256772123100
++256312121714
+
+osamaimoses  -- Koha Sql Download
+
+Reg No.	Category of plate	Make	Model	            Chasis No.	    Engine No.	Year of manufacture	Colour
+UBE360P	Ordinary Vehicles	TOYOTA	PREMIO CBA-ZZT240	ZZT2400077733	1ZZ1781206	 2004	            SILVER
+
+0312308200 -> KFC Delivery
+
+Your IG-ODS Number is: PS20210805000284  -> Asterisk2010
+Plot No. 3615 Block No. 99  0.0820 Hectares 08/07/2020
+Plot No. 616 Block No. 78 18/09/2019 0.8120 30/11/2018
+
+https://igdeclarations.igg.go.ug:8185
+
+BEGINNER GUIDE FOR LINUX TECMINT
+https://www.tecmint.com/free-online-linux-learning-guide-for-beginners/ {:Stopped at Section 3}
+
+D:\Virtual Machines\PBX_Tes\CentOS 7 64-bit.vmx
+Revo Uninstaller Pro 4.4.0 -> 4.4.2 Upgrade Exists
+CentOS-7-x86_64-DVD-1708.iso
+00:0C:29:D4:2D:4E
+
+mucosmas@gmail.com
+
+Wed, Dec 5, 2012 at 11:14 PM - 
+
+Juliet - 0775634943
+
+0773284953 - Nasser
+
+RHEL 8.3 4.18.0-305.22.1
+Citrix
+Ansible
+URA
+Juliet Tecno -> 0775634943 -> Immy's Friend
+
+0772309173 - Yusuf Lule
+0754067525 - Fahad Jumia
+
+http://tldp.org/guides
+
+##002#
+
+RHEL8.3 Oota 4.18.0-240.22.1 -  192.168.64.133:9090/
+
+https://access.redhat.com/documentation/en-us/red_hat_cloud_platform/2021/html/user_access_configuration_guide_for_role-based_access_control_rbac/assembly-rbac-procedures#proc-insights-rbac-creating-user-access-admin_rbac-intro
+2.1.1. Creating a User Access administrator
+Prerequisites
+You must be an Organization Administrator (org admin).
+You started the Create role wizard.
+You are at the Add permissions step in the wizard.
+
+
+https://cloud.redhat.com/insights/inventory/554d17e7-7408-4295-a513-0885fc187b6c/insights#SIDs=&tags=
+Bad Request
+'insights' does not match '^[0-9a-fA-F]{8}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{12}$|^[0-9a-fA-F]{8}[0-9a-fA-F]{4}[0-9a-fA-F]{4}[0-9a-fA-F]{4}[0-9a-fA-F]{12}$' Failed validating 'pattern' in schema['items']: {'format': 'uuid', 'pattern': '^[0-9a-fA-F]{8}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{12}$|^[0-9a-fA-F]{8}[0-9a-fA-F]{4}[0-9a-fA-F]{4}[0-9a-fA-F]{4}[0-9a-fA-F]{12}$', 'type': 'string'} On instance[0]: 'insights'
+Request Id: 99b2f96fc6f646c09172fbcbc007b16b
+
+We’ve made improvements to the navigation of Insights for RHEL
+Operations, Security, and Business Insights,
+Additionally, Subscription Watch is now Subscriptions, available for both OpenShift and RHEL.
+
+ANNOUNCEMENT
+New User Access Administrator role!
+The User Access administrator role allows org admins to extend or delegate the ability to manage User Access on cloud.redhat.com to users who are not org admin users. This new role can only be assigned or unassigned by an org admin. 
+
+ISBAT University’s accredited Hybrid Blended Learning Platform (ISBATU Virtual)
+VES (Virtual Exam System)
+
+Cyber Vault
+ULTIMATE Learning Solution for
+
+DATA CENTER VIRTUALIZATION
+CYBER SECURITY
+DIGITAL FORENSIC
+ETHICAL HACKING
+DATA SCIENCE ENGINEERING
+
+The Sopranos -> TV Series 
+https://moviesjoy.to/watch-movie/the-gods-must-be-crazy-ii-17114.2758691 -> Gods Must Be Crazy 
+
+Mathew 5:44
+John 5:16
+Mathew 24:10
+
+0702932229 -> Elvis ZZimbe Surveyor 
+
+To change the language open the language.txt file in data/i18n/ with notepad and change ru_RU to en_GB ;)
+
+https://www.thegrapevine.co.ug/nakalema-probes-kyambogo-bosses-for-hijacking-govt-key-digitization-project/
+
+DJ Erycom Mix on YouTube
+DJ Shotz 
+Pro Android Apps 
+Penis Enlargement Pdf Books @ E:\E\DOCS\Penis Exercises - A Healthy Book for Enlargement, Enhancement, Hardness, & Health 2013 -> Rob Michaels - Mantesh 
+-> Adult Jokes Book 
+-> E:\Torrents 
+-> TeraCopy   
+-> 500 Square yard House Design 50′ x 90′ From GHAR PLANS
+
+Galatians 5:19
+
+https://www.internetdownloadmanager.com/register/new_faq/chrome_extension.html#:~:text=If%20you%20already%20added%20IDM,the%20image)%20for%20IDM%20extension.
+
+
+Powershell "(Get-WmiObject -query 'select * from SoftwareLicensingService').OA3xOriginalProductKey"
+*** Windows 10 Pro Product Key ***
+8MGNH-BCP8B-6PPXQ-JWC7H-3J3GP
+
+Your username is: walherb
+Your password is: walherb@19
+
+Your username is: kyuguest
+Your password is: kyu@123
+
+NIN: CM87023107LGKC  Voter Number: 62134473
+Village: BUGUJJU
+District: MUKONO
+Constituency: MUKONO MUNICIPALITY
+Sub County: MUKONO CENTRAL DIVISION
+Parish: NSUUBE/KAUGA WARD
+BUGUJJU (NAZ-Z) - AT CATHOLIC CHURCH Using @ec.or.ug/search/byid
+https://www.watchguard.com/help/docs/help-center/en-US/Content/en-US/Fireware/mvpn/l2tp/l2tp_vpn_client_win10_c.html
+Last login: Thu Nov 26 09:16:29 2020 from 10.80.1.179
+
+0752845620
+C:\Users\walas\AppData\Local\Temp\Torrent2Exe\
+Academics Information Management System (AIMS)
+
+Stanbic Questions -> 1.Subaru 2.Arsenal 3.Orange 
+
+Dr. Tran for funding A/c 9030018789808
+-20,000.00
+520,994.00
+POS Refund EXT_EXS St A
+141,434.00
+540,994.00
+POS PURCHASE FINE CHOICE SUPERMARKETKAMPAL
+-20,500.00
+399,560.00
+
+24th August 2020 -> 5,000,000 UGX to Gabron Property Consultants LTD
+08th July 2020 -> 49,000,000 UGX to Gabron Property Consultants LTD
+07th July 2020 -> 1,000,000 UGX USSD Transfer to 9030008574595
+
+1900802937 - kitutu ernest
+
+kyurepository@gmail.com --> Ictservices@2020
+4552928 - 4037781
+
+0789607076
+
+6 -> 1973
+
+Friday 12/03/2021
+Proverbs 9:10
+Psalms 34:7
+Ecclesiates 8:12
+Isaiah 33:6
+
+The Notebook (2004)
+A Star Is Born 
+Ghost 
+Titanic
+Romeo & Juliet 
+
+https://www.medicalnewstoday.com/articles/326516  --> Lithium Carbonate Side Effects
+
+12/03/2021
+0773100021
+0773129461
+
+0720472640
+0759979401
+0775380213 Robo cop iRobot Momentum
+
+https://keepvid.pro/
+
+bado mapema --> too early
+unaskia kulala kwani
+we ni wangu milele -> you are mine forever
+
+303 -> M-Net Movies Zone
+
+Jagenda Abey   -- 150712008277
+Kuseka Idah Gertrude -- 160901000545
+
++254705066872
+
++allow insecure apps -> 587 smtp.gmail.com 
+
+mail.server.username = elibrarian@kyu.ac.ug
+mail.server.password = LIBRARYICTSERVICES  -- Ictservices
+
+Recovery phone  -- 0772 371822
+Recovery email  -- rbuwule@kyu.ac.ug
+
+mail.server.username = elibrarian@kyu.ac.ug
+mail.server.password = Ictservices
+
+NNnW&49bKK@
+aimsnotifications@kyu.ac.ug
+
+https://www.youtube.com/watch?v=tDDGSPJujzY&feature=push-u-sub&attr_tag=hyaVcbkopZMtfCvq%3A6
+
+Asterisk-KYU
+
+user acceess -magmt- how to log into aims - prog mgmt - fees struct- how to register - 
+
+0773113201 -->
+
+Hardware -> Academic Registrar -> Finance
+
+Your username is: kyuguest
+Your password is: kyu@123
+
+eufhaye -- Penn & Teller
+
+##002# -> OK
+
+7829199146  -> Fredrick Zoom ID-
+
+861-032-3344 -> My Personal Meeting ID
+
++254 20 2218661  -- Sandton City Hotel Ltd Nairobi Kenya
+
+All of me -- John Legend
+Thinking Out Loud -- Ed Sheeran
+https://www.swahilipod101.com/learn-with-pdf?src=youtube_100_must_know_nouns_yt_desc_(pdf_lp)&utm_medium=yt_desc&utm_content=yt_desc_(pdf_lp)&utm_campaign=100_must_know_nouns&utm_term=(not-set)&utm_source=youtube&utm_source=youtube
+
+Ray jessel
+
+0759979401
+
+------------- Land Title Processing ----------------
+1.5% of 65m
+975,000 + 200,000 -> 1,175,000 / 2 -> 587,500
+
+---------------- Weight Loss Foods ------------------
+- Whole Eggs
+- Leafy Greens (Kale, Spinach and Lettuce)
+- Salmon
+- Cruciferous Vegetables (Cabbage, Broccoli and Cauliflower)
+- Lean Beef and Chicken Breast
+
+exfat-fuse exfat-utils
+
+---- Corey Schafer Books He Uses ---------
+- Learning Python
+- Fluent Python
+- Automate The Boring Stuff With Python
+- Python Tricks The Book by Dan Bader
+- Python Crash Course
+
+-------------- Dspace Handle Configuration ---------------
+Ports to be opened for dspace handle: TCP/UDP -- 2641
+HTTP Interface - 8000
+Handle Prefix --- 20.500.12504
+Ports
+Public IP -- 196.43.144.6
+Email:wangweisimail@gmail.com
+http://hdl.handle.net/
+hdladmin@cnri.reston.va.us
+
+http://hdl.handle.net/4263537/5014
+http://hdl.handle.net/10570/9464 (makir)
+https://wiki.lib.sun.ac.za/index.php/SUNScholar/Handle_Server
+
+Sitemap: ${dspace.url}/sitemap
+Sitemap: ${dspace.url}/htmlmap
+
+[dspace]/bin/dspace make-handle-config [dspace]/handle-server
+
+https://wiki.lyrasis.org/display/DSDOC5x/Installing+DSpace#InstallingDSpace-TheHandleServer
+
+https://wiki.lyrasis.org/display/DSDOC6x/Search+Engine+Optimization
+
+  KYU IR HOME/Build  Vocational Studies  Agriculture View Item
+SOURCES OF RESISTANCE TO AND OF CERCOSPORA ZEAE-MAYDIS FROM INOCULUM SOURCE IN MAIZE
+https://kyuir.kyu.ac.ug/handle/20.500.12504/106
+https://kyuir.kyu.ac.ug/handle/20.500.12504/239
+https://kyuir.kyu.ac.ug/handle/20.500.12504/226
+https://kyuir.kyu.ac.ug/handle/20.500.12504/110
+
+[tomcat]/conf/Catalina/localhost
+/opt/tomcat/conf/Catalina/localhost
+/opt/tomcat/logs/catalina.out
+
+
+KYUIR-Analytics
+sudo apt-get purge openssh-server
+sudo apt-get install openssh-server
+
+mkfs -t ext4 /dev/sdb1
+xe vm-shutdown vm=<the-vm-name>
+xe vm-export vm=<the-vm-name> filename=/mnt/usb/<the-vm-name>.xva
+xe vm-import vm=<the-vm-name> filename=/mnt/usb/<the-vm-name>.xva
+
+sudo apt dist-upgrade -y
+qg_a8TjD
+
+http://www.internetdownloadmanager.com/register/new_faq/chrome_extension2.html
+
+140214009057
+ORDER NUMBER -- 300783256
+ORDER NUMBER -- 300437956
+
+HOME/Build & living - large appliances - cooking - ovens - upright ovens - cooker 5040g - black
+140723005978
+196.43.144.23
+
+Welcome to NSSF and thank you for contacting us. Kindly hold on as we attend to your query.
+Good Afternoon Herbert, We kindly advise that we have sent your e-statement and set your password to your email with instructions on how to view your statement.
+
+For your NSSF statement balance, you can dial *254# and select 2 or 3 or type and send SMS with the word BAL to 6773 so as to access your balance on Phone. You could also get the statement balance from your desktop at https://nssfgo.app and use your registered phone number to receive a one-time pass required to login or get the new NSSF App now on Google or Play Store.
+
+
+JAGENDA ABBEY  -- 150712008277 -- pwd 2015  -- +256778950244 -- 0702210363
+0785194587 -- David Musobya
+
+U0235/039
+Assistant Information Technology Officer (ICT Business & Development)
+
+son of a gun
+under surspicion
+http://79.127.126.110/Serial/
+http://79.127.126.110/Serial/24/S09/480p/
+
+0772060974
+0756111635  -- tibamwenda obed
+
+C5031E-S
+Rapid Logic
+140214009057
+10.2.0.17-- 
+0777101638
+take to jackie the administrator for recording, then take to the vc
+kgeofrey -- kjeff17 - eduroam
+blueFlame -- GL-General C5031E-S - 3 Gas + 1 Electric Plate Gas -- UGX 445000
+
+10.1.1.82
+196.43.185.3
+joram batuli -- BACHELOR OF SCIENCE IN CHEMICAL ENGINEERING
+
+externip=<external IP for the Linux box>
+localnet=10.119.186.45/255.255.254.0
+localnet=10.0.0.0/255.255.255.0
+localnet=192.168.1.0/255.255.255.0
+
+canreinvite=no
+Stanbic Waluherb
+What was the make of your first car -- Subaru 
+What is your favorite colour -- Orange
+In which City were you born -- Kampala
+https://pdf2doc.com/
+
+Joan Henry's Visitor bringing an invoice for signing
+https://www.pinterest.com/pin/479914904013436928/?lp=true
+https://www.youporn.com/watch/14627269/pornpros-piper-perri-shocking-big-dick-deep-creampie/
+
+Richard -- Human Resource 1st Floor
+
+Caesarean section  -- c-section
+
+on 3rd/Feb/2018: Made Love to Sarah Natar for Planned Child Bearing. @around 7-8pm
+ecclesiates 6:11
++254708 242 135  -- Sarah Natar
+Dr. Ojok From Special Needs came around on Tuesday 08/05/2018 
+
+AX8
+deadpool
+
+externip
+localnet
+nat=yes
+localnet=192.168.1.0/255.255.255.0
+
+https://www.youtube.com/watch?v=4UcqECQe5Kc&feature=push-u-sub&attr_tag=x7-B2L-haWe180mb-6
+https://www.youtube.com/watch?v=lx7oqZ7Nl3k&feature=push-u-sub&attr_tag=PcyOgehry5oPE5MW%3A6
+
+Office Visio -> C7WWR-R9NQD-3GKDR-H9DGC-Q3W4X
+
+galations 6:7
+nagiosadmin
+
+Arrow.S06E23.HDTV.x264-SVA[ezt
+
+0751384159 -- basigala jonathan
+
+782013903
+D:\STUDY\Python\CoreySchafer
+Meet Baziriyo for the Appointment Letter @ Kyambogo University (*****)
+
+https://www.youtube.com/watch?v=TCqf3rgPiQM
+
+http://dl.funsaber.net/serial/
+http://79.127.126.110/Serial/
+http://dl6.downloadoo.ir/TV.Show/S/So%20You%20Think%20You%20Can%20Dance/
+
+0753825182
+
+mysqladmin -u root password newpass
+mysqladmin -u root -p password newpass
+mysql_secure_installation
+
+# systemctl start mariadb
+# systemctl enable mariadb
+# systemctl status mariadb
+e is the same. The only difference is in the install step. Instead of installing the M
+https://www.tecmint.com/install-mariadb-in-centos-7/
+/etc/yum.repos.d/MariaDB.repo
+
+sudo yum install MariaDB-Galera-server MariaDB-client galera
+[mariadb]
+name = MariaDB
+baseurl = http://yum.mariadb.org/10.1/centos7-amd64
+gpgkey=https://yum.mariadb.org/RPM-GPG-KEY-MariaDB
+gpgcheck=1
+
+When:
+Start: Monday, January 15, 2018, 9:00 PM (EST)
+End: Monday, January 15, 2018, 10:00 PM (EST)
+
+http://live.growthlab.com/start/zero-to-launch/
+
+To execute relevant operations of dynamic disk/GPT, please create WinPE emergency disk first
+
+Date: Monday, January 15th
+Time: 9pm Eastern / 6pm Pacific (see your time zone)  --> Tuesday 5:00 AM Next Day
+
+REQUIREMENTS FOR LOST PASSPORT
+- Present dully the completed form A and B. Local Council endorsements may be omitted except where specifically required by the Passport Control Officer.
+- Applicant should attach own and detailed written explanation addressed to the Passport Control Officer explaining circumstances under which loss of passport occurred.  --- FORMAL EXPLANATION LETTER
+- Complete Questionnaire form.
+- Complete Affidavit in lieu of lost passport.
+- Attach Police report confirming loss of passport. - 
+- Attach 3 coloured passport size photos taken against a white background.
+- Attach Copy of Identification documents.
+Where copy of lost passport is available please attach the same
+*** - Obtain bank payment advise forms for fine of Uganda Shillings 100,000 only, in addition to Uganda shillings 150,000 for a new passport.
+- Pay above fees in prescribed bank and obtain bank return.
+- Attach bank receipt to application and support documents and present same to Passport Receiving Office.
+- Obtain your new passport after ten working days.
+
+
+D:\STUDY\Python\Lynda - Python 3 Essential Training\62226_02_07_SC11_oop2.mp4
+
+# -------------- Yaka Codes ---------------------
+# ---------- Customer Interface Unit (CIU) ------------
+#001#     -- Checking If the Yaka Meter is Yours
+#100#     -- Checking CIU Number 
+#074#     -- Time remaining before disconnection – 
+#073#     -- Reason for Last disconnect – 
+#070#     -- Average Power
+#071#     -- Average Current
+#072#     -- Average Voltage
+
+0775380213
+
+0200245245 -- GoTV
+
+0775585899  -- mama Neighbour
+IUC -- 2015921810 -- GOTV
+
+0704791656  -- Loyang Lenny  -- PBX
+
++256790033574  -- Jomayi Whatsapp
+
+
+0772981505 -- Frank -- Jomayi
+
+# -------------- ZION ESTATES -------------
+Matugga-Mbugu Star City Estate -- {Zion Estates}
+Bwaise Office
+Dr. Lubega's Building Near Seroma Hardware
+Oposite Turskys Supermarket
+Call us: +256 (0) 700 646 723
+
+Head Office
+Zion Building next to M.K. Building 
+P.O.Box 10257, Kampala Uganda.
++256 704 449950/ +256 776 449950
+
+Call us: 0414 267 972
+
+0800 185 186
+
+Jomayi Estates
+Plot 20, Yiga Chambers Old Kampala, Uganda
+
+https://www.youtube.com/watch?v=riohO4dcy08
+
+ThisIsGlobalWarming
+
+0700271446  -- Ismail KYU LIbrary
+
+C:\Users\Herbert\AppData\Roaming\IDM\
+
+Version 1703 (OS build 15063)
+Current Branch (CB)	1703	15063.296	4/11/2017	5/9/2017
+
+nagios -- nagios2010
+
+"D0ntGu3$$M3" -- OpenSSH
+Zeevars@2014
+
+herbert
+herbert@2013@herbert
+ekampus2010@serverKYU@2010
+196.43.144.23
+
+lsanyu2016 -- Jackie@2016
+
++256783913809
+
+echo %PROCESSOR_ARCHITECTURE%
+https://devtidbits.com/2014/05/21/create-a-better-windows-command-line-prompt/
+https://github.com/adoxa/ansicon/releases
+
+http://www.mls-software.com/opensshd.html
+
+Modem Number: 0723249590
+
+show vpn l2tp
+
+DriverPack
+
+DFCU -- Mothers First Name -- LOY
+Best Musician            -- ADELE
+
+43520
+
+mstsc 10.130.0.144 10.80.0.30 10.130.0.231 10.130.0.138
+SecureCRT
+
+%appdata%\Skype
+
+https://pythontips.com/2016/02/27/learning-python-for-data-science/
+
+https://www.fullstackpython.com/postgresql.html
+
+
+%AppData%\Microsoft\Windows\Start Menu\Programs
+
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs -- {For All Users}
+
+------------------- Best partition Manager Tool for 2017 -------------------
+http://www.toptenreviews.com/software/utilities/best-partition-manager-software/
+
+----------- Best Budget Laptops 2017 under $500 --------------
+Asus F556UA-AB32
+
+DELL XPS 15
+15.6-inch 1,920x1,080-pixel display
+Intel Core i7-7700HQ
+16GB RAM, 256GB PCIe SSD
+4GB Nvidia GeForce GTX 1050
+Weight: 2kg
+Tested Battery Life: Around 9 hours
+Review price: £1,499
+
+ASUS F555UA-EH71
+
+Read more at http://www.trustedreviews.com/best-laptops_round-up#zO8GZLtS2BMDgdRF.99
+
+mail.txt in CentOS Folder
+D:\Asterisk\VOIP\scripts
+E:\Zeenode\photo.erl
+D:\Asterisk\CentOS
+D:\Asterisk\health.txt
+installation.txt
+build-webapps -- restart-dspace
+
+AVG PC TuneUP 2016 {PC Tune UP}-- Without Updating 
+Duplicate Finder
+WinDirStat -- Analyzing Disk Usage
+
+Start -> Control Panel -> System and Maintenance -> Indexing Options
+Advanced -> Index Settings -> Rebuild
+
+https://lookeen.com/blog/how-to-fix-windows-7-desktop-search-problems
+Control Panel -> System and Security -> Find and fix problems -> View All -> Search and Indexing
+
+Checking the Graphics Card in a windows PC -- dxdiag
+hiberfil.sys -- bigger or double the size with double ram installed
+
+kyu_hosts.txt
+bash_programming.txt
+couchdb.txt
+
+customerservice.UG@mtn.com​
+
+****************No pagefile win 7 implications************
+
+netsh wlan show drivers
+
+netsh wlan set hostednetwork mode=allow ssid=Herbert key=walas123
+netsh wlan start hostednetwork
+
+To change the WPA2-PSK key, you can enter the following: 
+netsh wlan refresh hostednetwork YourNewNetworkPassword
+
+_style.scss!
+
+Mama Carol  -- Mobile Money 0782409835 -- 112500 + 2000
+
++256759948282 -- Ntabadde Agnes 
+
+https://www.youtube.com/watch?v=XofCrUexW5Y&index=1&list=PL700D6FB79FB464C4
+http://s1.bia2m.biz/Series/
+http://dl5.downloadoo.ir/TV.Show/24/S07/
+index of 24 mkv
+
+Into the Bad Land  -- Serie recommended by Philemon
+V413HAV  -- Best Torrent Books Provider
+Sadeem -- Cracked Software
+
+Report such hazards to: 
+Toll free - 0800285285/0800385385,
+WhatsApp - 0772285285,
+Twitter - @UmemeLtd,
+Facebook - Umeme Limited, 
+and through the Umeme Mobile App available in your Appstore.
+
+************BOOKS*************
+-- Eloquent Javascript -- by Marijn Haverbeke
+-- HTML & CSS -- Jon Duckett
+-- Beautiful Web Design by Jason Beaird
+
+Evoting Balanced Power Settings
+5	10  -- turn off display
+15	30  -- put the computer to sleep 
+
+--3353361--
+duducyper  -- For Cockroaches spray for 1 hour and close and then mop 10ml in the toilets   
+
+from:customerservice@nssfug.org 
+http://www.quintup.com/recommended-signals/
+pip install -r requirements.txt
+grep -ir "^listen" /etc/httpd/*
+cat /etc/selinux/config 
+getenforce
+setenforce 0
+lsanyu2016 -- Jackie@2016
+
+
+--***********  Net Pay Calculator ***************--
+65/100 of y = (2300000*65/100)
+
+3353361 - 908008 = 2445353
+3353361 - 410000
+
+2445353 - (0.05*3353361) -- 167668.05  == 2277684 (Net Pay)
+
+###############After Contract Print Out#############
+Gross Pay (3388361)
+Gross Pay - PAYE - NSSF(0.05*3388361)
+3388361 - 918508 -169418.05 = 2300435 (Net Pay)
+
+kiwenda  -- keno land location
+
+Read Chapter 7 of Body Language by Julius Fast …
+about Mike. I’ve read that chapter about 50 times.
+You may not get it at first, but keep reading it until
+you do. The more you learn, the more you’ll get it.
+
+Also, read The Rules by Ellen Fein and Sherrie
+Schneider… yea, the one for women. Do that stuff… it
+works… end all conversations first, etc.
+
+And read How to Make Love to a Woman by Michael
+Morganstern. Good stuff in there too. And learn how to be
+funny… do whatever you have to do. It’s the magic
+ingredient to add to your cockiness that sets the mixture
+ablaze.
+
+https://www.acer.com/ac/en/GB/content/support-product/3635?b=1&pn=NX.RGPEM.006
+
+echo "Hello Herbert" | mailx -r walherb@zeenode.com -s "Test Subject" walherb@gmail.com
+mail -s "Hello World" walherb@gmail.com 
+######### echo "Hello Ounce Again" | mail -s "This is the Subject" walherb@gmail.com ##################
+usermod -c "Asterisk Administrator" asterisk
+usermod -c "" asterisk
+
+yum install -y mailx
+ln -s /bin/mailx /bin/mail
+
+/usr/local/nagios/etc/objects/
+
+############ mail -s "This is the subject" walherb@gmail.com <<< "This is the message"  ##################
+
+Sending a message with an attachment:
+ echo "Message" | mail -s "Subject" -a /loc/to/attachment.txt email@address
+Reading the message body from a file:
+ echo | mail -s "Subject" -r from@address -q /loc/to/body.txt email@address
+ 
+cat /path/to/file | mail -s "your subject" your@email.com
+
+wget https://sourceforge.net/projects/nagios/files/nrpe-3.x/nrpe-3.0.1.tar.gz
+/usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg
+
+emailalerts2016@gmail.com -- Asterisk@2016
+
+echo "Hello Herbert" | mailx -r walherb@zeenode.com -s "Test Subject" walherb@gmail.com
+
+Microsoft Access Database Engine 2010 Redistributable
+AccessDatabaseEngine_X64.exe
+
+######################################### URA CAR REGISTRATION #######################################
+Dear MR  HENRY WALUSIMBI HERBERT, 
+Thank you for registering on the UNBS ePortal. Your log in credeantials are as below. 
+Please endeavour to change the password ot one of your choice:
+username : 1001308780
+password : ^A_Dk%1sy54KZeL7IY;Me!w96!P7Oc
+
+For support call 0800-133-133 or send us an email on eportal@unbs.go.ug
+
+This is an auto generated mail. Please don't respond to it.
+
+Regards, 
+Imports Inspection Department
+UNBS
+
+#################################################################################
+
+https://community.spiceworks.com/how_to/9483-connect-to-a-802-1x-peap-authenticated-network-from-a-personal-non-domain-member-windows-7-8
+
+AVG PC TuneUp -- version 16.62.2.46691
+CoreUtils
+
+virtualenv venv
+venv\Scripts\activate
+venv\Scripts\deactivate
+
+###############Learn Coding Online############
+4.CodeAcademy
+3.Code Avangers
+2.Code School
+1.Treehouse
+
+https://github.com/freecodecamp/freecodecamp
+
+https://forum.freecodecamp.com/
+
+https://gitter.im/FreeCodeCamp/FreeCodeCamp
+
+https://medium.freecodecamp.com/
+https://gitter.im/FreeCodeCamp/Help
+
+@bsynerlig https://www.youtube.com/watch?v=qZKvZzRynLE&t=455s
+
+Jajja waswa at comerade club
+Jajja Bruce
+
+/usr/local/etc/yaws
+
+docroot: /usr/local/var/yaws/fanvil
+
+yaws --status --id asterisk
+yaws --stop --id asterisk
+
+
+Learning Python by Mark Lutz for language fundamentals
+Programming Python for applications basics
+Python Pocket Reference as a companion to the other two 
+
+https://www.cru.org/train-and-grow/spiritual-growth/fasting/7-steps-to-fasting.html
+https://www.cru.org/train-and-grow/spiritual-growth/fasting/personal-guide-to-fasting.4.html
+
+Call Files in Asterisk
+http://www.nirsoft.net/utils/skype_log_view.html
+
+https://yts.ag/
+
+First Car -- Subaru
+City in which your born -- Wobulenzi
+Favorite Colour -- Orange
+arp -a
+nbtstat -A XXX.XXX.XXX.XXX
+
+library.kyu.ac.ug
+41.202.250.66
+
+Name:    library.kyu.ac.ug
+Address:  41.202.233.92 (41.202.233.92)
+10.1.1.44
+http://www.cmd5.org/
+
+https://www.unixmen.com/setup-digital-repository-institution-using-dspace-ubuntu-14-04-server/
+
+mysql> select surname,firstname,userid,password from borrowers;
++
++-------------+-----------+----------------+------------------------
+
+http://ekampus.kyu.ac.ug/ekampus/
++2349024102495 -- Peter
+SELECT SHA1(UNHEX(SHA1("password")));
+
+http://kylehall.info/projects/koha/koha-virtual-appliance/
+Problem: I don’t know the Username/Password
+
+ssh -p 50476 vyatta@10.1.1.1
+
+Solution: The usernames are:
+OS: root, koha
+MySQL: root, kohaadmin
+Koha: kohaadmin
+All passwords are katikoan
+
+import socket
+s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+s.connect(("gmail.com",80))
+print(s.getsockname()[0])
+s.close()
+
+************************************Asterisk Tweaks***********************************************
+sip show channels
+core show channels
+sip show channelstats
+channel request hangup SIP/4003-00000a2f
+channel request hangup SIP/2002-00000a2f
+console dial 2002@kyambogo
+console dial 2001@kyambogo
+console hangup
+   
+Asterisk Youtube Channnels
+http://www.asterisk.org/community/documentation
+http://www.asterisk.org/community/astricon-user-conference/video-archive
+https://www.youtube.com/playlist?list=PLighc-2vlRgT3sWvW0RL7qyD2THenFIfZ
+
+
+[general]
+static=yes
+writeprotect=no
+priorityjumping=no
+autofallthrough=yes
+clearglobalvars=no
+
+http://www.nssfug.org/HOME/Build/est 
+Designated survival
+
+16/05/2016 Inward SWIFT Pa AT-DPC WALUSIMBI HERBE RFB VEHIC             66,454.00
+
+Email: info@cmcmotors.com
+Phone: +254 722509868/9 +254 734651582 / 020-650795 020-653098
+
+Cmc Motors Group Ltd - Al-Futtaim Group (Facebook)
+
+Derek Banas Python Youtube
+http://dl.vahidfilm.com/Serial/Castle/
+http://dl5.nightsdl.com/TV.Show/C/Castle/S08/
+http://dl.hastidownload.biz/S5/ali/film/
+http://dl.my-film.org/serial/Agents%20of%20S.H.I.E.L.D/
+http://sv1.bia2dl.xyz/Series/Intelligence/s1/
+http://dl6.nightsdl.com/TV.Show/H/How%20to%20Get%20Away%20with%20Murder/S01/
+http://dl.vahidfilm.com/Serial/The%20Mentalist/S01/
+http://sv1.bia2dl.xyz/Series/The%20Mentalist/
+
+Ronald brought something for Henry @ 10:19 24/10/2016
+
+The Peter Principle states that workers tend to rise to the level of their incomptence
+Employees are promoted until they reach a position for which they're unfit, at which point they stay in that position.
+
+http://exodus.poly.edu/topgear/
+The Grand Tour -- Car TV Series based on former presenters of Top Gear UK
+
+intitle: "index of" (mpg|avi|wmv|mp4) teacher -html -htm -php -asp -jsp
+side:edu intitle: "index of" (mpg|avi|wmv|mp4) teacher -html -htm -php -asp -jsp
+?intitle:index.of? [filetype] [movie name]
+intitle:?index.of?mkv top gear uk
+
+# find / -name *.jpg -type f -print | xargs tar -cvzf images.tar.gz
+find / -name asterisk | xargs rm -rf
+
+lsanyu2016 -- Jackie@2016
+/ +254 726 157 274
+
+https://join.skype.com/h83BnYrTTDoc -- Kyambogo Ekampus
+
+https://www.reddit.com/r/TopGear/comments/3apw6d/all_top_gear_episodes_20022015/?st=iryyu6zj&sh=3fdd91db
+
+1) choose asset
+2) time (1, 5, 10 min)
+3) amount $50
+are you with me?
+
+i will explain you how to select the right one
+we do not guess  here
+2 methods
+1) historical movement
+1 way direction
+2) tool
+50 signals for investment
+consistency strategy
+tradingview.com
+
+lsanyu2016--Jackie@2016
+
+letmewatchthis.si
+300mbfilms.co
+
+sembela -- Irene Ntale
+Nkwatako -- sheebah Karungi
+Mbeera eno -- Irene Ntale/Fille
+
+netsh wlan set hostednetwork mode=allow ssid="Walas" key="walas123"
+netsh wlan start hostednetwork
+
+ict@ekampus17
+
+netsh wlan show profiles
+netsh wlan show profile name="Ekampus" key=clear
+netsh wlan show profile name="Zeenode Office" key=clear bulabira2016
+netsh wlan show profile name="DataCentre" key=clear
+
+
+WEBSITE:- https://www.bou.or.ug/bou/HOME/Build.html
+https://www.nssfug.org
+http://tweaks.com/windows/39559/kill-processes-from-command-prompt/
+
+
+Science by King Saha and Winnie Nwagi
+
+Beba Beba
+Paul n Martha
+
+
+NSSF Act (Cap222) 30 YRS AGO REF December 14, 2015:-
+Interest Rate of 13% for the Financial Year 2014/15
+Customer Connection Week 11 - 15 April 2016
+Plot 1 Pilkington Road, 
+Workers House, 14th Floor 
+
+P.O Box 7140, Kampala, Uganda
+Email: customerservice@nssfug.org
+Phone: +256 417 331755
+Toll free: 0800 286 773
+Website: www.nssfug.org
+
+Customer Service on toll free line 0800286773
+
+ 
+e-COLLECTION Employer Portal (Sensitization of companies on NSSF)
+
+Benefits
+NSSF administers and pays qualified contributing persons the following benefits;
+Age
+Invalidity
+Survivors
+Withdrawal
+Exempted Employment
+Emigration Grant
+ 
+GENERAL REQUIREMENTS (FOR ALL BENEFITS)
+Current passport size photograph
+Personal Identification (e.g. photocopy of   Identity Card, Voters Card, Driving Permit, Passport
+Photocopy of NSSF Card
+Proof of Bank Account details e.g. Bank slip
+​
+Click Benefits Payment data for the latest information on our benefits payment 
+Specifc requirements
+Age Benefit: The objective is to replace income security to the elderly through payment of their savings accumulated over the years during the period they were employed.
+Qualifying Conditions
+Attainment of retirement age of 55 years
+Early retirement benefit can also be claimed on attaining 50 years, if the member has retired from employment.
+Requirements (in addition to general requirements)
+1.Introduction letter from the Employer or Local Council
+Invalidity Benefit: Paid to a contributing member who has lost his/ her earning capacity due to physical or mental incapacitation as will be certified by a medical doctor
+Qualifying Conditions
+Certification by NSSF's medical doctor
+Requirements:
+1.Disengagement letter OR Termination OR End of Contract letter
+2.Clinical notes or documents indicating history of illness together with attendant Doctor’s recommendation
+3.Introduction letter from the previous Employer or Local Council
+4.The client may be required to see the Fund Doctor
+Survivor's Benefit: This is paid when a contributing member dies while working, spouses and children are the immediate beneficiaries. In case at the time of death the deceased had neither, the parents qualify.
+Requirements:
+1.Certified copy of Letter of administration or Probate and petition for letters of Administration or Grant of probate
+2.Petition is a MUST
+3.Death Certificate
+4.Letter from Local Council confirming demise of the member and introducing claimant
+5.Introduction letter from the employer of the deceased member
+Exempted Employment: Paid to a contributing member who joins employment categories that are exempted i.e. have their social protection schemes that are recognised under the exiting law and are exempted from contributing to NSSF .e.g. the army, police, prison, civil service and government teaching service employees or members of any scheme who have received exemption from the Miister responsible for Social Security in writing.
+
+Requirements
+1.Disengagement letter OR Termination OR End of Contract letter
+2.Certified copy of appointment letter and posting instructions (either the appointment is subject to the Pensions Act or the appointing authority provides written confirmation that the member is pensionable.
+3.Certified copy of current pay slip, Warrant card for police officers, and Movement order for the Army.
+Withdrawal Benefit: Paid to a memebr who attains the age of 50 years if he or she has not been employed under a contract of service for a period of one year immediately preceding his or her claim.
+Requirements (in addition to general requirements)
+1.Termination letter from the employer
+2.Resignation Letter
+Emigration Grant: This is paid to a contributing member who has been working in Uganda and is leaving the country permanently. It is paid to both Ugandans and non-Ugandans
+Requirements:
+1.Disengagement letter OR Termination OR End of Contract letter
+2.Evidence of exiting the country permanently; Confirmation from the Embassy, One way exit air   ticket, Cancelled OR Expired work permit OR Special Pass clearance from Immigration Department in case of absence of work permit, repatriation card for the case of refugees.
+3.Evidence of permanent residence, Green Card for US immigrants
+4.Marriage certificate where applicable and permanent residence or dependant pass  
+HOW TO APPLY FOR YOUR BENEFITS
+Qualifying members shall apply for benefits at the nearest NSSF office. Members may be required to provide further evidence.
+In order to avoid inconveniences, a claimant is obliged to provide full proof of identity and where necessary, an investigation to this effect shall be conducted by the fund.
+Claimants shall be required to fill all relevant forms accurately.
+Claimants are advised to submit the claim in person to the nearest office.
+All the processing of benefits is done at the NSSF offices.
+Benefit forms must be witnessed by the claimant's last contributing employer
+Computation of Benefits
+A verified claim is processed as follows;
+All contributions remitted to the fund during the members working period are compiled on the assessment sheet.
+The declared interest is added on the closing balance for each financial year.
+The computed figures plus interest are properly verified before a cheque is written or money transferred to a members account.
+Things You Must Do In Order To Secure Your Benefits
+Ensure that the information you give on the benefit form is correct. It must tally with the information you gave at the time of registration.
+Attach correct or authentic supporting documents depending on the benefit you qualify for.
+ Member's Rights.
+Contributing members have a right to request for their statements of account.
+Contributing Persons have the right to appeal before established channels in case he/she has any dispute with regard to the benefit payable
+ 
+WARNING: 
+Any person who makes a false statement or who produces or furnishes any information which he/she knows to be false in a material particular is guilty of an offence and may be liable to a fine or imprisonment or both.
+
+The Uganda Retirement Benefits Regulatory Authority (URBRA) is a government-owned, semi-autonomous agency responsible for the regulation, licensing, supervision, and control of the retirement sector in Uganda, the third-largest economy in the East African Community. The authority is also responsible for the formulation of guidelines to allow the liberalization of the retirement sector in the country.
+
+Location[edit]
+The headquarters of URBRA are located at 3rd to 6th Floor, URBRA Towers, 1 Clement Hill Road, on Nakasero Hill, in Kampala, the capital and largest city of Uganda. The coordinates of the headquarters are 0°19'16.0"N, 32°35'12.0"E (Latitude:0.321111; Longitude:32.586667)
+
+Uganda Retirement Benefits Regulatory Authority
+URBRA
+Agency overview
+Formed	2012
+Jurisdiction	Government of Uganda
+Headquarters	1 Clement Hill Road
+Kampala, Uganda
+Agency executives	
+David Nyakundi Bonyi[1], Chief executive officer
+Andrew Kasirye, chairman
+Parent agency	Uganda Ministry of Finance and Economic Planning
+
+15 Staff (2014)
+
+http://urbra.go.ug/
+
+UOWD Info, You Want it We Provide it
+Saturday, 16 July 2011
+With NSSF GO You Always Know
+In the past it was a problem knowing what your balance is for those who are subscribed to the saving scheme but that is no more with the launch of NSSF Go in which you can access your balance with your cellphone, E-statement and a toll free line.
+
+Go SMS Balance-Send NSSF to 6773 
+
+GO SMS Balance - Send NSSF to 6773. Tried this one out and the return message was that your call cost 220Ugx. This is how t should be:  NSSF< leave space> NSSF No < leave space> Date of Birth Full Names then send an SMS to 6773. 
+
+You will receive another message on how to proceed with retrieving your balance.
+
+Go E-Statement - With this you must know your NSSF no to be able to log in to the NSSF website (www.nssfug.org) but even then, you must have sent them an email to avail you with a password that you can use along with your NSSF number.
+
+Go Call Centre - They even have a toll free line 0800286773. This means that on calling this line you will not be charged however this should be between 7am to 9m on week days and 9am to 2pm on Saturdays.
+
+This will enable you to track your savings anytime and anywhere. That is not all, National Social Saving Fund (NSSF) is embracing the facebook social network, implying that you can get answers to your questions and also browse through other FAQs that have been answered before.
+
+Insurance Regulatory Authority of Uganda
+The Insurance Regulatory Authority of Uganda (IRA) was established under section 14 of the Insurance Statute 1996 now The Insurance Act,(Chap213) Laws of Uganda, 2000(Insurance Act)which came into effect on 4th April 1996 and commenced operations in April 1997
+
+The main object of the Authority is to ensure the effective administration, supervision, regulation and control of the business of Insurance in Uganda.
+
+
+A. LOSS ASSESSORS
+1)  Bengal Trading Co. Limited
+Loss Assessors 
+Plot 96/98, William Street 
+(Opposite M/s Achelis Uganda)
+P.O. Box 30319
+KAMPALA
+Tel. 0712-983233
+E-mail: dpradipkumar@yahoo.com
+D. LOSS ASSESSORS & INSURANCE SURVEYORS
+
+1) Aliwali Daimond Engineers.
+Loss Assessors & Insurance Surveyors 
+P.O. Box 8656
+KAMPALA
+Tel. 0312-106993/0772-457148
+
+2) Fox Limited.
+
+Loss Assessors.
+Nakuya House, Entebbe Road
+Clock Towers
+P.O. Box 75653
+KAMPALA
+
+2) Ask Corporate Consultants Ltd.
+Loss Assessors & Insurance Surveyors
+Business Garden Building 
+Plot 1496, Block 29
+Kyebando Rd- Kamwokya.
+P O Box 23442
+KAMPALA
+Tel. 0414-592738/0752-544544
+3) Intertech Global Assessors Ltd. 
+
+Loss Assessors
+Kibuli Near Police Training School
+P.O. Box 11081
+KAMPALA
+
+3) Elit Liability Management 
+Loss Assessors & Insurance Surveyors
+Plot 1028 Kabakanjagala Road
+P.O. Box 497
+KAMPALA
+Tel. 0414-599754                                                  Email: elit@elitmanagement.com
+
+4) Proba Services Ltd. 
+Loss Asessors
+Plot 254 Ggaba Road
+P.O. Box 70193 Ggaba,
+KAMPALA
+Tel: 0772-435984
+E-mail: proscoviababi@yahoo.com
+
+
+4) Five Motors Uganda Limited
+Loss Assessors Insurance Surveyors
+Plot 1743/793 Block 214 Bukoto Kisaasi Road
+P.O. Box 12636
+KAMPALA
+Tel. 077/0702-533833/0704-533833
+Fax 071-259514
+Email: motorcareclinic@gmail.com
+5) Protectors International Ltd. 
+
+Loss Assessors
+Plot 1846 Bukoto Trading Centre Kamwokya
+P.O. Box 12298
+KAMPALA
+Tel/Fax. 0414-258649/0312-266814/
+0712-879204/ 0774-301515
+www.protectorsuganda.com
+E-mail: inquiry@protectorsuganda.com
+
+5) Futures Properties Consultants Limited
+Plot 33, Lumuba Avenue 
+P.O. Box 33111
+KAMPALA
+Tel. +256-414-340923
+
+6) S-M Cathan
+Loss Assessors & Insurance Adjustors
+Skas House
+Plot 180 Namuwongo Road
+P.O. Box 26509
+KAMPALA
+Tel. 0414-020090/0772-617889
+E-mail: smcathan@consultants.com
+
+7) Uganda Global Survey Ltd.
+
+Loss Assessors & Insurance Surveyors
+Plot 37 Chwa 2 Road, Mbuya.
+PO Box 7624.
+KAMPALA
+Tel. 0750-916169                                            
+Email: uganda@mcsn-africa.com
+
+8) Zolm International Ltd. 
+
+Loss Asessors and Insurance Surveyors
+Plot 27 Sir Apollo Kagwa Road
+Suit 206
+Opp. Global Trust Bank
+P.O. Box 16255 Wandegeya
+KAMPALA
+Tel: 0414-353718/0772-635707/0702-635707
+Fax 0312-264723
+E-mail: zolm@zolminternational.com, zolm.international@yahoo, zolm.international@gmail.com
+
+B. LOSS ADJUSTORS
+
+1) General Adjusters (U) Ltd.
+No 45 Prince Charles Drive Kololo
+P.O. Box 24393
+KAMPALA
+Tel:  0414-668835/4530155
+Fax: 0414-530004
+Email: generaladjusters@utlonline.co.ug
+
+E. LOSS ASSESSORS, INSURANCE SURVEYORS &RISK MANAGERS.
+
+1) McLarens Uganda Ltd.
+Loss Assessors, Adjustors and Risk Managers. 
+T/a Independent Adjusters Uganda Ltd
+Plot 14 Martin Road Old Kampala
+P.O. Box 22781
+KAMPALA
+Tel. 0414-255479/0757-55479/0772755479
+Fax 0414-259699
+E-mail: mclarens@starcom.co.ug
+
+2) Claim Care Uganda Ltd.
+
+P.O. Box 8407
+KAMPALA
+
+F. LOSS ASSESSORS & RISK MANGERS.
+1) ILARM Consulting Uganda Ltd 
+Plot 1192 Katwe
+Kampala Uganda.
+Cell: +256 704936361
+         +256754380988
+Email: ilarmconsults@gmail.com
+C. LOSS ADJUSTORS & SURVEYORS
+
+1) Multiple Consult Network
+Loss Assessors & Insurance Surveyors
+Plot 1001 Ggaba Road
+Suit No.5 Suzie Plaza
+Nsambya After American Embassy
+P O Box 22546
+KAMPALA
+Tel: 0414-510070/0312-263108/
+0772-483705/0772-436914
+www.multipleconsult.com
+Email: mcn@utlonline.co.ug
+
+www.ira.go.ug
+
+George Kidima +254722411837
+epapersupport(at)ug.nationmedia.com
+Nairobi Toyota, Uhuru highway/Lusaka Road P.O Box 3391 - 00506
+Telephone: 020-6967000, +254 719 029000
+E-mail: enquiries@toyotakenya.com Service booking: 020 - 6967186 Parts enquiry: 020 - 6967230/1 , 0719029230/1
+Customer Relations : toyota.kenya@toyotakenya.com
+Human Resources : applications@toyotakenya.com
+Express Service Center
+Tel: (254 20) 552147 / 537333Cell: 0705111200, 0786333686
+Email: sales@subarukenya.com
+TIN -- 1001308780 NSSF -- 8711200197718
+KARIBU SPORTPESA. YOUR USERNAME IS 0726157274. YOUR PIN IS 6222. GET TOP GAMES ON WWW.SPORTPESA.COM OR SMS FOOTBALL TO 79079. SMS COST 2/-.. PREDICT AND WIN IN 2 EASY STEPS. DEPOSIT TO PAYBILL 955100, SMS YOUR PREDICTION (GAMEID#YOUR PICK#BET AMOUNT) TO 79079. SMS COST 2 KSH. 24/7 HELP: 0709079079
+SPACE Global Co.
+
+Join Us Today in Creating Wealth Together and Achieving Financial Freedom. Call/sms/Whatsapp +254771624144 or email spaceglobalco@gmail.com
+
+Join us at AstriCon 2016 in Glendale, Arizona, September 27-29, and attend Asterisk from Scratch, an all-day seminar designed specifically for newbies to get started learning Asterisk.
+
+LinkedIn recognizes Free Code Camp as a university. You can gain access to our large alumni network by adding Free Code Camp to your LinkedIn profile's education section. Set your graduation date as next year. For "Degree", type "Full Stack Web Development Certification". For "Field of study", type "Computer Software Engineering". Then click "Save Changes".
+
+• The Highway Code;
+• The Official DSA Guide to Driving – The essential skills;
+• The Official Guide to Learning to Drive;
+• The Official Theory Test for Car Drivers;
+• Know Your Traffic Signs.
+
