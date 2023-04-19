@@ -10,6 +10,8 @@ WSL2004/Asterisk@2021
 OneDrive/Asterisk@21680
 
 5225110005416925
+info@pcworldcomputers.co.ug
+0414-236247/230031/256520
 
 pg_hba.conf means host-based authentication
 sed -i 's/old-text/new-text/g' input.txt
