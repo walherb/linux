@@ -9,6 +9,44 @@ AWS/Asterisk@2021
 WSL2004/Asterisk@2021
 OneDrive/Asterisk@21680
 
+5225110005416925
+
+pg_hba.conf means host-based authentication
+sed -i 's/old-text/new-text/g' input.txt
+ALTER USER postgres WITH PASSWORD 'Asterisk@2010';
+[dspace]/bin/dspace create-administrator
+
+UPDATE eperson SET password=md5('Asterisk@2021'), salt=NULL,
+digest_algorithm=NULL where email='walherb@gmail.com';
+
+
+[dspace]/bin/dspace user --add --email jquser@example.com -g John -s User --password hiddensecret
+[dspace]/bin/dspace user --add --netid jquser --telephone 555-555-1234 --password hiddensecret
+
+[dspace]/bin/dspace user --list
+
+[dspace]/bin/dspace user --modify -m george@example.com
+[dspace]/bin/dspace user --delete -n martha
+
+insert into epersongroup values(1,'Administrator'); 
+
+[dspace-home]/bin/dspace test-email
+echo "test" | mail -s "test subject" [hidden email] /dspace/bin/dspace dsrun org.dspace.core.Email
+mvn -U clean package -Dmirage2.on=true -Dmirage2.deps.included=false
+cd [dspace-source]/dspace/target/dspace-installer
+ant update
+
+After making changes to [dspace-source]/dspace/config/dspace.cfg, change
+directory to [dspace-source]/dspace/ and then run
+mvn -e -o packages
+Then change directory to
+[dspace-source]/dspace/target/dspace-1.7.0-build.dir
+And run
+ant -Doverwrite=true update clean_backups
+
+
+The changes should be effected.
+
 07/April/2023 07:45 -> {Started Learning Web Programming with React JS}
 
 VS Code Extensions 
