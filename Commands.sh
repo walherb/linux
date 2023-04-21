@@ -4,7 +4,6 @@ https://developers.redhat.com/cheat-sheets
 https://phoenixnap.com/kb/
 
 ----------- 18 Conmmands That Will Change The Way You Use Linux Forever --> YT ---------------
-cd -
 Ctrl+L -- reset
 Ctrl+Z -- background 
 sudo !!
