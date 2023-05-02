@@ -3,6 +3,46 @@ https://uae.sharafdg.com/product/lenovo-thinkpad-x1-carbon-gen-9-20xw000qad-lapt
 https://developers.redhat.com/cheat-sheets
 https://phoenixnap.com/kb/
 
+du -sh * | sort -hr
+
+[CourseClub.Me]
+find /samba/walusih/ -name "*[CourseClub.Me]*" -print | less 
+find . -name "*[CourseClub.Me]*" -exec rm -r {} \;
+find /samba/walusih/Courses/ -type f -name "*\[CourseClub.Me\]*" -print | less
+find . -type f -name "*\[CourseClub.Me\]*" -print | less
+find . -type f -name "*\[CourseClub.Me\]*" -exec rm {} \;
+find . -type f -name "*\[DesireCourse.Net\]*" -exec rm {} \;
+find . -type f -name "*\[FreeCourseWorld.Com\]*" -exec rm {} \;
+find . -type f -name "*\[GigaCourse.Com\]*" -exec rm {} \;
+find . -type f -name "*\[CourseClub.NET]]\]*" -exec rm {} \;
+find . -type f -name "*\[FreeCourseSite.com]\]*" -exec rm {} \;
+find /samba/walusih/Courses/ -type f -name "*\[CourseClub.Me\]*" -exec rm {} \;  {*****}
+find /samba/walusih/Courses/ -type f -name "*\[DesireCourse.Net\]*" -exec rm {} \;
+find /samba/walusih/Courses/ -type f -name "*\[FreeCourseWorld.Com\]*" -exec rm {} \;
+find /samba/walusih/Courses/ -type f -name "*\[GigaCourse.Com\]*" -exec rm {} \;
+find . -type f -name "0. Websites you may like*" -exec rm {} \;   --> files 
+find . -type d -name "0. Websites you may like*" -exec rm -r {} \;
+find /samba/walusih/Courses/ -type d -name "0. Websites you may like*" -print
+find /samba/walusih/Courses/ -type d -name "0. Websites you may like*" -exec rm -r {} \;
+find . -type f -name "*\[CourseClub.Me\]*" -exec rm {} \;
+for i in *; do od -c <<< "$i"; done
+for i in /samba/walusih/*; do od -c <<< "$i"; done
+find /samba/walusih/ -name "*.url" -print | less
+find /samba/walusih/ -name "[CourseClub.Me]" -print | less
+find /samba/walusih/ -type f -name "[CourseClub.Me]" -print | less
+find . -name "*.jpg" -exec /bin/rm {} \;
+find /dir/to/search/ -type f -name "FILES-TO-FIND" -delete
+find /samba/walusih/ -type f -name "[CourseClub.Me]" -delete
+find . -type f -name "*.bak" -exec rm -f {} \;
+find . -type f -name "*.bak" -delete
+find . -type f -name "*.err" -print0 | xargs -I {} -0 rm -v "{}"
+find /projectA/ \( -name '∗.bak' -o -name '*.core' \) -exec rm "{}" \;
+sudo find / -name .DS_Store -exec rm {} +
+
+find . -type f -name "*(*)*" -delete -maxdepth 1
+find . -type f -name "*(*)*" -print -maxdepth 1
+find . -type f -name "*(*)*" -exec rm -rf {} \;
+
 ----------- 18 Conmmands That Will Change The Way You Use Linux Forever --> YT ---------------
 Ctrl+L -- reset
 Ctrl+Z -- background 
