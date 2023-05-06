@@ -31,7 +31,6 @@ find /samba/walusih/ -name "*.url" -print | less
 find /samba/walusih/ -name "[CourseClub.Me]" -print | less
 find /samba/walusih/ -type f -name "[CourseClub.Me]" -print | less
 find . -name "*.jpg" -exec /bin/rm {} \;
-find /dir/to/search/ -type f -name "FILES-TO-FIND" -delete
 find /samba/walusih/ -type f -name "[CourseClub.Me]" -delete
 find . -type f -name "*.bak" -exec rm -f {} \;
 find . -type f -name "*.bak" -delete

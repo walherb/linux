@@ -4,6 +4,12 @@ https://www.mockaroo.com/   -- {Mockaroo - Random Data Generator and API Mocking
 
 \i basics.sql
 
+scram-sha-256
+
+pg_dumpall -U postgres > psql-14-databases.sql 
+pg_dumpall > db.out 
+psql -f psql-14-databases.sql postgres
+
 https://drive.google.com/file/d/1OlbpXYL1VPJ_hgEEZOQciTSvrvuJXuAQ/view?usp=sharing
 
 --! ---------------------- Learn these quick tricks in PostgreSQL (*****) ----------------------------------

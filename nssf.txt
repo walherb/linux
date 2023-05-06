@@ -9,9 +9,137 @@ AWS/Asterisk@2021
 WSL2004/Asterisk@2021
 OneDrive/Asterisk@21680
 
+React Suite 
+Notion AI
+Warp
+signNow 
+
+https://1337x.to/torrent/5482561/Code-With-Mosh-The-Ultimate-Data-Structures-Algorithms-Course-Series-FCO/
+
+Dark Theme for Google Chrome
+
+706329 and. account number  04339-001-706329-006-1
+
+19045.2913
+21H2
+LTSC • General Availability Channel	2023-04-11	19044.2846	KB5025221
+\! cmd.exe /c chcp 1252
+
+HP ProBook 450 G4 IDS Base Model Notebook PC
+
 5225110005416925
 info@pcworldcomputers.co.ug
 0414-236247/230031/256520
+
+{
+  "editor.linkedEditing": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 18,
+  "files.autoSave": "off",
+  // "prettier.semi": false,
+  // "files.exclude": {
+  //   "**/node_modules": true
+  // },
+  "editor.tabSize": 2,
+  "workbench.colorCustomizations": {
+    "editorLineNumber.foreground": "#00ff00"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  // "prettier.arrowParens": "avoid",
+  "prettier.printWidth": 120,
+  "explorer.confirmDelete": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "git.openRepositoryInParentFolders": "never",
+  "workbench.startupEditor": "none",
+  "editor.minimap.enabled": false,
+  "reactSnippets.settings.importReactOnTop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.cursorBlinking": "expand",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.enableSmartCommit": true,
+  "editor.wordWrap": "on",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    "*.js": "javascript",
+    "*.jsx": "javascriptreact"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "html.format.enable": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true
+  // "window.zoomLevel": 1
+}
+
+%userprofile%\AppData\Local\Google\Chrome\User Data
+
+
+-- Testing --
+https://www.freecodecamp.org/news/how-to-use-proptypes-in-react/
+https://www.javatpoint.com/reactjs-proptypes
+https://account.mongodb.com/account/login?n=%2Fv2%2F644a65cbdbbf581e6f1f5f37%23%2Fclusters
+https://devhints.io/css-grid
+https://www.koenig-solutions.com/blog/best-linux-certifications
+https://courses.webdevsimplified.com/view/courses/react-hooks-simplified/1327055-must-know-hooks/4076826-01-usestate
+https://www.youtube.com/watch?v=iiADhChRriM&list=PLZlA0Gpn_vH85jM1TWO6TdCtSr6ruglWn
+https://www.postgresqltutorial.com/
+https://levelup.gitconnected.com/top-10-vs-code-extensions-for-software-developers-9c3a807c6656
+https://javascript.plainenglish.io/50-visual-studio-code-extensions-thatll-make-you-a-better-developer-ae8159e095a
+https://github.com/machadop1407?tab=repositories
+https://github.com/gitdagray
+https://youtubemultidownloader.net/playlists.html
+https://www.youtube.com/watch?v=HimR8Xtz17U
+https://www.youtube.com/watch?v=s_Ie_yh_4Co&list=PL0Zuz27SZ-6PA3nkkEAr91n4bK-NunwPU
+https://github.com/john-smilga?tab=repositories
+https://chat.openai.com/
+https://www.cyberciti.biz/atatus.com/blog/building-crud-rest-api-with-node-js-express-js-and-postgresql/
+https://learn.microsoft.com/en-us/windows/release-health/release-information
+
+-- Programming --
+https://linuxhostsupport.com/blog/how-to-set-up-nginx-as-a-reverse-proxy-for-apache-on-debian-11/
+https://www.theodinproject.com/dashboard
+https://legacy.reactjs.org/docs/jsx-in-depth.html#user-defined-components-must-be-capitalized
+https://react.dev/blog/2022/03/08/react-18-upgrade-guide
+https://wanago.io/2022/02/07/measuring-performance-web-vitals-react/
+https://medium.com/bb-tutorials-and-thoughts/how-to-write-production-ready-node-js-rest-api-javascript-version-db64d3941106
+https://www.freecodecamp.org/news/2019-web-developer-roadmap/#back-end-web-development-roadmap
+https://www.atatus.com/blog/building-crud-rest-api-with-node-js-express-js-and-postgresql/
+https://www.crunchydata.com/postgres-tips
+https://pgdash.io/blog/postgres-tips-and-tricks.html
+https://andyatkinson.com/postgresql-tips
+https://medium.com/bb-tutorials-and-thoughts/how-to-build-nodejs-rest-api-with-express-and-postgresql-674d96d5cb8f
+https://medium.com/bb-tutorials-and-thoughts/how-to-build-nodejs-rest-api-with-express-and-postgresql-674d96d5cb8f
+https://javascript.plainenglish.io/building-rest-api-with-node-express-and-postgresql-28d8cfe30d
+https://levelup.gitconnected.com/postgresql-with-node-js-198041f39ad1
+https://codevoweb.com/node-express-typeorm-postgresql-rest-api/
+https://www.cybertec-postgresql.com/en/tips-and-tricks-to-kick-start-the-postgres-year-2021/
+https://towardsdatascience.com/how-we-optimized-postgresql-queries-100x-ff52555eabe
+
 
 pg_hba.conf means host-based authentication
 sed -i 's/old-text/new-text/g' input.txt
@@ -88,25 +216,6 @@ MERN Stack Course 2023 - MongoDB, Express, React and NodeJS
 
 D:\STUDY\JavaScript\NodeJS\BezKoder\app\models\index.js:27
 db.tutorials = require('./tutorial.model.js')(sequelize, Sequelize);
-
-TypeError: require(...) is not a function
-    at Object.<anonymous> (D:\STUDY\JavaScript\NodeJS\BezKoder\app\models\index.js:27:46)
-    at Module._compile (node:internal/modules/cjs/loader:1254:14)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
-    at Module.load (node:internal/modules/cjs/loader:1117:32)
-    at Module._load (node:internal/modules/cjs/loader:958:12)
-    at Module.require (node:internal/modules/cjs/loader:1141:19)
-    at require (node:internal/modules/cjs/helpers:110:18)
-    at Object.<anonymous> (D:\STUDY\JavaScript\NodeJS\BezKoder\server.js:19:12)
-    at Module._compile (node:internal/modules/cjs/loader:1254:14)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
-
-
-5000 	- 75,000
-3000 	- 50,000
-1300 	- 30,000
-200 	- 10,000
-90		- 5,000
 
 -- ALTER TABLE person ADD COLUMN car_id BIGINT REFERENCES car (id), UNIQUE(car_id);
 
