@@ -1,11 +1,44 @@
 -----------Software------------
 https://www.youtube.com/watch?v=4TIvB8zDFio
 https://photos.google.com/
-https://www.scopicsoftware.com   -- Software Programming Startup in Uganda
-https://scopicsoftware.com/
+https://scopicsoftware.com   -- Software Programming Startup in Uganda
 https://shortcutworld.com/en/Windows/10/win/all
 https://www.tecmint.com/vi-editor-usage/
 chrome://flags
+
+nvm install "lts/*" --reinstall-packages-from="$(nvm current)"
+
+:750
+
+dir env:
+[System.Environment]::SetEnvironmentVariable('ResourceGroup','AZ_Resource_Group')
+$env:AZURE_RESOURCE_GROUP = 'MyTestResourceGroup'
+dir Env:\PSModulePath
+(dir Env:\PSModulePath).value -split ';'
+$env:ResourceGroup
+$env:ResourceGroup = $null
+$env:MY_ENV_VAR = 1234567890
+$env:FLASK_APP = 'main.py'
+[System.Environment]::SetEnvironmentVariable('GoHugo','C:\Hugo\bin', [System.EnvironmentVariableTarget]::User)
+[System.Environment]::SetEnvironmentVariable('GoHugo','C:\Hugo\bin', [System.EnvironmentVariableTarget]::Machine)
+
+mailgun
+"[css]": {
+    "editor.suggest.insertMode": "replace"
+}
+"editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.sortImports": true
+}
+
+AlgoMonster
+
+DownloadDevTools.ir
+
+HTMLHint 
+ESLint
+Tabnine
+Document This
 
 echo "# JavaScript" >> README.md
 git init
@@ -14,6 +47,100 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/walherb/JavaScript.git
 git push -u origin main
+
+# ---------------------------Markdown Crash Course ------------------------------
+https://markdownguide.org/basic-syntax/
+Auto-Open MArkdown Preview -> VS Code ext 
+<!-- Headings -->
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
+
+<!-- Italics -->
+*This text* is italic 
+\*This text\* is italic
+_This text_ is italic 
+
+<!-- Strong -->
+**This text** is strong
+__This text__ is strong
+
+<!-- Strikethrough -->
+~~This text~~ is strikethrough 
+
+<!-- Horizontal Rule-->
+---
+___
+
+
+<!-- Blockqoute -->
+> This is a quote
+
+<!-- Links -->
+[Traversy Media](http://www.traversymedia.com)
+[Traversy Media](http://www.traversymedia.com "Traversy Media")
+
+<!-- UL -->
+* Item 1
+* Item 2
+    * Nested Item 1
+    * Nested Item 2
+    
+<!-- OL -->
+1. Item 1
+2. Item 2
+3. Item 3
+
+<!-- Inline Code Block -->
+`<p>This is a paragraph</p>`
+
+<!-- Images -->
+![Markdown Logo](https://markdown-here.com/img/icon256.png)
+
+<!-- Github Markdown -->
+<!--  Code Blocks -->
+```javascript
+    function add(num1, num2) {
+        return num1 + num2
+    }
+```
+
+<!-- Tables -->
+| Name     | Email          |
+| -------- | -------------- |
+| John Doe | john@gmail.com |
+| Jane DOe | jane@gmail.com |
+
+<!-- Task Lists -->
+* [x] Task 1
+* [x] Task 2
+* [ ] Task 3
+
+<!-- Subscript & Superscript -->
+X<sub>1</sub>  
+x<sup>2</sup> = X * X
+
+LaTex in MD Inline: $\Phi^{2} + X = 3$  
+LaTex in MD Outline: $$\Phi^{2} + X = 3$$
+
+[Docusaurus](https://docusaurus.io/docs/markdown-features)
+
+[Links](#links)
+
+<!-- References -->
+[cs]: https://youtube.com/codestackr
+[codeSTACKr][cs]
+
+[Emojis](https://www.webfx.com/tools/emoji-cheat-sheet/)
+Markdown Emoji -> VS Code Extension
+Markdown All in One - VS Code Extension  
+:joy:
+:bento:
+:leg:
+
 
 http://kb.vmware.com/kb/2073803 
 open-vm-tools
@@ -130,7 +257,7 @@ pip install jupyterthemes
 mail.server.username = emailalerts2016@gmail.com
 mail.server.password = asterisk@2010
 
-DESKTOP-Q3EDIKL  -- laptop name
+DESKTOP-OGJO8A0  -- laptop name
 
 Auto start VM on XenServer boot
 xe pool-list
@@ -140,7 +267,7 @@ xe vm-param-set uuid=912e65cc-31a5-4855-ab24-d926979b7389 other-config:auto_powe
 xe vm-param-set uuid=ed2fac8-3b1b-6d85-60a9-3e4ec23dc3eb other-config:auto_poweron=true
 xe vm-param-set uuid=d4710bd7-79fc-b275-1502-5e94c1b0f99d other-config:auto_poweron=true
 
------------ VMs on 10.1.1.12 --------------------
+---------------- VMs on 10.1.1.12 --------------------
 xe pool-list 
 xe pool-param-set uuid=062d4788-1a08-4357-570d-b9010167002d other-config:auto_poweron=true
 xe vm-list
@@ -226,7 +353,6 @@ Weebly: https://www.weebly.com/
 Trello: https://trello.com/
 
 NWSC Meter No: 21147740
-Ride Along 2 
 0705069111
 Telegram: Messaging App for Notifications 
 123moviesfreenow.com
@@ -276,21 +402,11 @@ firewall-cmd --list-ports
 firewall-cmd --zone=public --list-all
 firewall-cmd --zone=public --add-port=80/tcp --permanent
 
-Technologies :
-HTML5/Javascirpt with PHP/ ASP.Net Backend
-MEAN - MongoDB,ExpressJS,AngularJS and NOdeJS
-
 CoreUtils  -- {Linux commands in Windows}
 cockpit -- NodeJS Linux Monitoring
 
-python2 -m pip install ipykernel
-python2 -m ipykernel install --user
-
 mail.server.username = emailalerts2016@gmail.com
 mail.server.password = asterisk@2010
-
-zee-pay.com
-zeepayref1.zee-pay.com
 
 https://www.linode.com/docs/applications/voip/install-asterisk-on-centos-7
 https://linoxide.com/tools/install-setup-asterisk-13-pbx-centos-7/
@@ -309,13 +425,13 @@ bulabira2016
 
 http://www.ku.ac.ke/2015-12-11-06-09-13/2015-12-11-06-18-05
 
-#################Starting and Stopping Nitrogen on Reporting Tool{10.1.1.230} ############
+############# Starting and Stopping Nitrogen on Reporting Tool{10.1.1.230} ############
 When Reporting Tool is off
 cd /HOME/Build/oracle/ekampus_reports-1.0/myapp/bin/
 cd /HOME/Build/oracle/ekampus_reports-1.0/myapp/bin/nitrogen stop|start
 zeevars@196.43.128.25's 
 
-##########################################################################################
+########################################################################################
 The easiest solution is to use the /etc/rc.local file. By default, it's empty.
 
 Since rc.local runs as root, you can use it as such (though if you prefer to run Nitrogen as a separate user, using su -c "command" username) is good.
@@ -344,7 +460,7 @@ I hope that helps.
     </record>
 </myxml>
 
-##########################Installing Asterisk 13 on Centos 6#############################
+######################## Installing Asterisk 13 on Centos 6 ############################
 http://downloads.asterisk.org/pub/telephony/asterisk/asterisk-13-current.tar.gz
 http://blogs.digium.com/2015/02/24/install-asterisk-13-pjsip-centos-6/
 
@@ -426,7 +542,7 @@ tcpdump
 Wireshark
 VoIPmonitor
 
-######################LAN Configs for CentOS##############################
+######################### LAN Configs for CentOS ##############################
 DEVICE=eth0
 HWADDR=00:0C:29:D8:34:A4
 TYPE=Ethernet
@@ -446,10 +562,10 @@ IPV6INIT=no
 ###################################################################################
 Logging Application
 
-#################################Postgresql 9.6 on 10.1.1.222#############################
+############################### Postgresql 9.6 on 10.1.1.222 ###########################
 /var/lib/pgsql/9.6/data/
 
-####################################http://zeenode.com/###################################
+################################# http://zeenode.com/ ##################################
 Odul Peter
 CEM Consultant
 Huawei Technologies Nigeria
@@ -485,7 +601,7 @@ http://openjdk.java.net/install/
 https://www.java.com/en/download/linux_manual.jsp
 http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 http://www.davidghedini.com/pg/entry/install_tomcat_7_on_centos
-###################### Upgrading Dspace and Migrating Dspace #############################
+###################### Upgrading Dspace and Migrating Dspace ###########################
 
 ######################### Installing Java on CentOS ##################################
 http://tecadmin.net/install-java-8-on-centos-rhel-and-fedora/
@@ -494,11 +610,11 @@ http://tecadmin.net/steps-to-install-java-on-centos-5-6-or-rhel-5-6/
 
 http://download.oracle.com/otn-pub/java/jdk/8u121-b13/e9e7ea248e2c4826b92b3f075a80e441/jdk-8u121-linux-x64.tar.gz
 
-############################ Backing Up Postgresql ######################################
+############################ Backing Up Postgresql ####################################
 pg_dump -U [database-user] -f [backup-file-location] [database-name]
 pg_restore -C -d postgres -U dsapce dumpfile
 
-################# Examination Coordinator Department of Special Needs ###################
+################# Examination Coordinator Department of Special Needs ##################
 http://www.linuxproblem.org/art_9.html
 
 http://stackoverflow.com/questions/4161548/how-to-establish-ssh-key-pair-when-host-key-verification-failed
@@ -509,13 +625,13 @@ ssh-keygen -R hostname -- for "Host key verification failed"
 
 [kelms.kyu.ac.ug]:50476,[196.43.144.30]:50476 ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAuWC4sAxHWUBF3lLgKKn1vls1OTewwarYkkJM6lSMzQoCWwi+xNmK9U4X6Zs6dSYZHkla0bnHvuDBK52sU3A7abulAKr25Iw/RwJ1L8vTFGbK03hG2/upaf5jSLucuDVH+J2OVesu2W4RWFCPgH/G7aFVtlXOCyZRH9omeaSOyUk76dfGT4MNWLi4+lguJImmcNC0eC6KG1rYpWR5ScfV5EmGfu4GMsXNOvb1GfEA/HDub9S//5FhRRNEFFb5QNRXMw2K0zIDKBsl3ZZVlRivm9Kos0dQ2Pm5kKYBnCITkwde61k33OCHAcTOEZswwhTQGvdXYy/jQYMG4e8FmcDgiw==
 
-#####################SSH Passwordless Login Using SSH Keygen in 5 Easy Steps##############
+###################SSH Passwordless Login Using SSH Keygen in 5 Easy Steps##############
 ssh-keygen -t rsa
 cat .ssh/id_rsa.pub | ssh sheena@192.168.0.11 'cat >> .ssh/authorized_keys'
 cat ~/.ssh/id_rsa.pub | ssh root@10.2.0.10 'cat >> .ssh/authorized_keys'
 
 196.43.144.30
-#########################################################################################
+########################################################################################
 http://openjdk.java.net/install/
 
 Installation of the 64-bit JDK on RPM-based Linux Platforms
@@ -649,7 +765,7 @@ IDMGCExt.crx in IDM Installation Directory
 
 http://staff.lib.sun.ac.za/~hgibson/docs/cv/cv.html
 
-#################Tomcat Listening on Port 80 in Ubuntu 14.04 ############################
+#################Tomcat Listening on Port 80 in Ubuntu 14.04 ###########################
 http://wiki.lib.sun.ac.za/index.php?title=SUNScholar/Prepare_Ubuntu/S05/Ubuntu-14.04
 sudo apt-get install tomcat7
 
@@ -811,7 +927,7 @@ Then, you can upgrade your DSpace database to the latest version of DSpace. (NOT
 As long as you plan to use the default settings in DSpace (with Discovery enabled), you can safely remove any old Legacy browse tables (named "bi_*", where "bi" = browse index). To do so, simply run: 
 [dspace]/bin/dspace index-db-browse -f -d
 
-########################################################################
+###################################################################################
 http://wiki.lib.sun.ac.za/index.php?title=SUNScholar/Upgrading/DSpace/General_Notes
 install meld on Ubuntu
 
@@ -893,9 +1009,6 @@ Ubuntu 14.04 LTS -- XMLUI+Mirage2+PostgreSQL+OpenJDK7u101+Maven3.0.5+Ant1.9.3+To
 -- HTML & CSS -- Jon Duckett
 -- Beautiful Web Design by Jason Beaird
 
-file:///D:/fromc/Desk/Learning%20JavaScript%20-%20my%20experience%20and%20advice%20_%20Derek%20Sivers.mht
-https://sivers.org/srs
-file:///D:/fromc/Desk/The%20Best%20Way%20to%20Learn%20JavaScript%20_%20Nettuts+.mht
 JavaScript Cookbook - by Shelley Powers
 Effective JavaScript - by David Herman
 Secrets of the JavaScript Ninja - by John Resig and Bear Bibeault
@@ -952,7 +1065,7 @@ restart nrpe service
 
 /usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg
 
-################Installing Nagios on Ubuntu 16.04########################
+####################### Installing Nagios on Ubuntu 16.04 ########################
 https://www.howtoforge.com/tutorial/ubuntu-nagios/
 
 sudo apt-get install wget build-essential apache2 php apache2-mod-php7.0 php-gd libgd-dev sendmail unzip

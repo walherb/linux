@@ -1,0 +1,296 @@
+==============Moodle============================
+yaws --conf etc/yaws.conf --daemon
+yaws --stop --id ekampus
+yaws --status --id ekampus
+
+
+alter table subjects add subject_id int(11) not null after id;
+UPDATE mytable SET column1 = value1, column2 = value2 WHERE key_value = some_value;
+
+======================================================================
+netsh wlan set hostednetwork ssid=herbert mode=allow key=12345678
+netsh wlan start hostednetwork
+======================================================================
+
+google.com resolved to 173.194.39.32
+google.com resolved to 173.194.39.37
+google.com resolved to 173.194.35.104
+ 
+ 
+Channel: SIP/4400
+MaxRetries: 2
+RetryTime: 60
+WaitTime: 30
+Context: phones
+Extension: 4401
+
+
+Channel: SIP/4400
+MaxRetries: 2
+RetryTime: 60
+WaitTime: 30
+Context: call-file-test
+Extension: 10
+
+
+Channel: SIP/4400
+Context:phones
+Extension:4401
+Priority:1
+Application: Playback
+Data: hello-world
+CallerID: Asterisk 800-555-1212
+
+area({triangle, A, B, C}) ->
+S = (A + B + C)/2,
+sqrt(S*(S-A)*(S-B)*(S-C));
+=====================================================
+admin
+Moodle@2014
+sudo setsebool -P httpd_can_sendmail on
+/etc/postfix/main.cf
+You have new mail in /var/spool/mail/root
+/etc/ssmtp
+/usr/sbin/ssmtp
+echo test | mail -v -s "testing ssmtp setup" walherb@gmail.com
+service postfix stop &amp;&amp; chkconfig postfix off
+echo "Test message from Linux server using ssmtp" | sudo ssmtp -vvv walherb@gmail.com
+===============================================
+http://stackoverflow.com/questions/20680050/installing-chkconfig-on-ubuntu
+alias chkconfig=sysv-rc-conf
+http://www.cyberciti.biz/tips/linux-security.html
+=========================================================================
+festival 2>&1 > /dev/null &  /etc/rc.local
+sudo aptitude search festvox
+aptitude install selected voice
+festival --server 2>&1 >/dev/null &
+@reboot festival --server 2>&1 >/dev/null & | run as asterisk user /usr/bin/festival
+=========================================================================
+exten => 124,1,Answer( )
+exten => 124,2,System(echo "This is a test of Festival" | /usr/bin/text2wave -scale 1.5 -F 8000 -o /tmp/festival.wav)
+exten => 124,3,Playback(/tmp/festival)
+exten => 124,4,System(rm /tmp/festival.wav)
+exten => 124,5,Hangup( )
+=========================================================================
+exten => 125,1,Answer( )
+exten => 125,2,System(/usr/local/cepstral/bin/swift -o /tmp/swift.wav "This is a test of Cepstral")
+exten => 125,3,Playback(/tmp/swift)
+exten => 125,4,System(rm /tmp/swift.wav)
+exten => 125,5,Hangup( )
+=====================================================================
+If you are not using a graphical environment, you can put the commands just before the line exit 0 in this file: /etc/rc.local. (To edit it just paste at terminal sudo nano /etc/rc.local
+==================================================================================
+Enabling root login
+sudo passwd root
+sudo passwd -u root
+
+Disabling root login
+sudo passwd -l root
+
+sudo apt-get remove openssh-client
+sudo apt-get update
+sudo apt-get install openssh-server
+
+sudo apt-get install build-essential linux-headers-$(uname -r)
+
+sudo apt-get install build-essential subversion libncurses5-dev libssl-dev libxml2-dev libsqlite3-dev uuid-dev vim-nox
+
+IMEI: 862465011597269
+Model: E3251s-2
+
+DC - Unlocker 2 Client 1.00.1131
+
+Detecting modem :
+
+selection :
+manufacturer - Huawei modems
+model - Auto detect (recommended)
+
+Found Applications port COM16
+Found Diagnostics port COM17
+
+Found modem         : E3251
+Model               : Huawei E3251
+IMEI                : 862465011597269
+Serial NR.          : S4PBYA9383003205
+Firmware            : 21.140.09.02.314
+Compile date / time : Nov 15 2012 08:25:16
+Hardware ver.       : CH2E3251SM
+Dashboard version   : IEW_Win_3.0.3.3_20130408112800_Mac3.0.3.2_130408.115324
+Chipset             : HiSilicon
+SIM Lock status     : Locked (CardLock)
+Wrong codes entered : 2 (unlock attempts left : 8)
+
+===================================================================
+NEW UNLOCK CODE: 15937675
+UNLOCK: 65506766
+FLASH:  39677133
+
+http://huaweicodecalculator.com/new-algo/index.php
+http://huaweicodecalculator.com/new-algo/
+http://unlock4modem.in/firmware-download-zte-huawei/
+
+DC - Unlocker 2 Client 1.00.1131
+
+Detecting modem :
+
+selection :
+manufacturer - Huawei modems
+model - Auto detect (recommended)
+
+Found Applications port COM16
+Found Diagnostics port COM17
+
+Found modem         : E3251
+Model               : Huawei E3251
+IMEI                : 862465011597269
+Serial NR.          : S4PBYA9383003205
+Firmware            : 21.140.09.02.314
+Compile date / time : Nov 15 2012 08:25:16
+Hardware ver.       : CH2E3251SM
+Dashboard version   : IEW_Win_3.0.3.3_20130408112800_Mac3.0.3.2_130408.115324
+Chipset             : HiSilicon
+SIM Lock status     : unlocked
+Wrong codes entered : 0 (unlock attempts left : 10)
+
+===================================================================
+
+DC - Unlocker 2 Client 1.00.1131
+
+Detecting modem :
+
+selection :
+manufacturer - Huawei modems
+model - Auto detect (recommended)
+
+Found Applications port COM16
+Found Diagnostics port COM17
+
+Found modem         : E3251
+Model               : Huawei E3251
+IMEI                : 862465011597269
+Serial NR.          : S4PBYA9383003205
+Firmware            : 21.140.09.02.314
+Compile date / time : Nov 15 2012 08:25:16
+Hardware ver.       : CH2E3251SM
+Dashboard version   : IEW_Win_3.0.3.3_20130408112800_Mac3.0.3.2_130408.115324
+Chipset             : HiSilicon
+SIM Lock status     : Locked (CardLock)
+Wrong codes entered : 0 (unlock attempts left : 10)
+
+===================================================================
+
+
+DC - Unlocker 2 Client 1.00.1131
+
+Detecting modem :
+
+selection :
+manufacturer - Huawei modems
+model - Auto detect (recommended)
+
+Found Applications port COM16
+Found Diagnostics port COM17
+
+Found modem         : E3251
+Model               : Huawei E3251
+IMEI                : 862465011597269
+Serial NR.          : S4PBYA9383003205
+Firmware            : 21.140.09.02.314
+Compile date / time : Nov 15 2012 08:25:16
+Hardware ver.       : CH2E3251SM
+Dashboard version   : IEW_Win_3.0.3.3_20130408112800_Mac3.0.3.2_130408.115324
+Chipset             : HiSilicon
+SIM Lock status     : unlocked
+Wrong codes entered : 0 (unlock attempts left : 10)
+
+===================================================================
+
+var http = require('http');
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.end('Hello World\n');
+}).listen(1337, '127.0.0.1');
+console.log('Server running at http://127.0.0.1:1337/');
+===================================================================
+var net = require('net');
+
+var server = net.createServer(function (socket) {
+  socket.write('Echo server\r\n');
+  socket.pipe(socket);
+});
+
+server.listen(1337, '127.0.0.1');
+
+===================================================================
+
+chown -R asterisk:asterisk /var/lib/asterisk/
+chown -R asterisk:asterisk /var/spool/asterisk/
+chown -R asterisk:asterisk /var/log/asterisk/
+chown -R asterisk:asterisk /var/run/asterisk/
+chown -R asterisk:asterisk /etc/asterisk/
+=====================================================================
+yum install http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
+yum install rtorrent
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+========================================================================
+178.79.137.176/redmine
+Last login: Thu Dec 11 12:21:31 2014 from 196.0.42.170
+Email delivery is not configured, and notifications are disabled. 
+Configure your SMTP server in config/configuration.yml and restart the application to enable them.
+
+
+
+
+
+LoadModule passenger_module /var/lib/gems/1.9.1/gems/passenger-4.0.53/buildout/apache2/mod_passenger.so
+   <IfModule mod_passenger.c>
+     PassengerRoot /var/lib/gems/1.9.1/gems/passenger-4.0.53
+     PassengerDefaultRuby /usr/bin/ruby1.9.1
+   </IfModule>
+   \
+   
+ (866) 490-6180
+ 
+ 
+ /etc/php5/apache2/php.ini
+ 
+ 
+ if(mail("walherb@gmail.com", "This some subject", "This is some message body"))  
+    echo "Sent";  
+else  
+    echo "Not sent";
+	
+	
+asterisk@Asterisk:~$ cat /etc/ssmtp/ssmtp.conf 
+#
+# Config file for sSMTP sendmail
+#
+# The person who gets all mail for userids < 1000
+# Make this empty to disable rewriting.
+root=kyuems@gmail.com
+
+# The place where the mail goes. The actual machine name is required no 
+# MX records are consulted. Commonly mailhosts are named mail.domain.com
+mailhub=smtp.gmail.com:587
+
+# Where will the mail seem to come from?
+rewriteDomain=gmail.com
+
+# The full hostname
+hostname=Asterisk
+
+# Are users allowed to set their own From: address?
+# YES - Allow the user to specify their own From: address
+# NO - Use the system generated From: address
+FromLineOverride=NO
+
+AuthUser=kyuems@gmail.com
+AuthPass=Moodle@2014
+UseTLS=YES
+UseSTARTTLS=YES
+
+
+TLS_CA_File=/etc/pki/tls/certs/ca-bundle.crt
+
+root:kyuems@gmail.com:smtp.gmail.com:58

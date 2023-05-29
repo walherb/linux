@@ -1,0 +1,42 @@
+awk '{print $NF;}' employee.txt | sort -r | awk 'NR==1 {print }'
+awk '{print $NF;}' employee.txt | sort -r | awk 'NR==1 {print } END { print}'
+
+sed -n 'N'p filename
+sed -n '3'p thegeekstuff.txt
+sed -n '3~2'p thegeekstuff.txt
+sed -n '4,8'p thegeekstuff.txt
+sed -n '$'p thegeekstuff.txt
+sed -n '4,$p' thegeekstuff.txt
+sed -n /Sysadmin/p thegeekstuff.txt
+sed -n '/Hardware/,6p' thegeekstuff.txt
+sed -n '3,/Security/p' thegeekstuff.txt
+sed -n '/Website/,$p' thegeekstuff.txt
+sed -n '/Storage/,+2p' thegeekstuff.txt
+sed -n '/Storage/,/Design/p' thegeekstuff.txt
+
+sed 's/Linux/Linux-Unix/' thegeekstuff.txt
+sed 's/Linux/Linux-Unix/g' thegeekstuff.txt
+sed 's/Linux/Linux-Unix/2' thegeekstuff.txt
+sed -n 's/Linux/Linux-Unix/gpw output' thegeekstuff.txt
+sed '/\-/s/\-.*//g' thegeekstuff.txt
+sed 's/...$//' thegeekstuff.txt
+sed -e 's/#.*//' thegeekstuff.txt
+sed -e 's/#.*//;/^$/d'  thegeekstuff.txt
+sed -e 's/<[^>]*>//g'  -- eliminate html tags
+sed 's/.$//' filename  - convert DOS newlines to Unix format
+
+sed 3d thegeekstuff.txt
+sed '3~2d' thegeekstuff.txt
+sed '4,8d' thegeekstuff.txt
+sed '$d' thegeekstuff.txt
+sed /Sysadmin/d thegeekstuff.txt
+sed '/Website/,$d' thegeekstuff.txt
+sed '/Storage/,+2d' thegeekstuff.txt
+sed '/^$/d' thegeekstuff.txt
+
+
+sed -n '1w output.txt' thegeekstuff.txt
+sed -n -e '1w output.txt' -e '$w output.txt' thegeekstuff.txt
+sed -n -e '/Storage/w output.txt' -e '/Sysadmin/w output.txt' thegeekstuff.txt
+sed -n '/Storage/,$w output.txt' thegeekstuff.txt
+sed -n '/Storage/,+2w output.txt' thegeekstuff.txt

@@ -3,11 +3,85 @@ https://uae.sharafdg.com/product/lenovo-thinkpad-x1-carbon-gen-9-20xw000qad-lapt
 https://developers.redhat.com/cheat-sheets
 https://phoenixnap.com/kb/
 
-du -sh * | sort -hr
+Auslogics Duplicate File Finder
 
-[CourseClub.Me]
-find /samba/walusih/ -name "*[CourseClub.Me]*" -print | less 
-find . -name "*[CourseClub.Me]*" -exec rm -r {} \;
+chmod +t .
+setfacl -m d:u:username:rwx,d:g:groupname:rwx .
+cp -Rp [options] [source] [destination] #Inherit permissions of the dest folder
+setfacl -m u:ALL:-x /path/to/file
+chattr +i /path/to/file
+
+cat ~/.ssh/id_rsa.pub | ssh walusih@192.168.64.128 'cat >> ~/.ssh/authorized_keys'
+
+prettier-plugin-tailwindcss
+
+aws free tier account -> AWS Management Console -> EC2
+ssh -i "linuxkey.pem" walusih@ec2-amazonaws.com
+sudo apt install ncal
+users
+w/who  
+id 
+less filename
+more filename
+head -20 filename
+ls -ltr
+cat > filename Ctrl + C
+vi +10 filename
+cat -n filename
+cat >> filename
+tree 
+diff file1 file2 
+file file1 
+grep -i permit /etc/ssh/sshd_config
+ls -l /etc | grep ^d
+sed -i 's/ansible/linux/g' file1
+sed -n '5,10p' file1
+sed '5,10d' file1 
+sed 's/#/ /' file1
+id root
+useradd walusih
+usermod -aG sudo walusih
+nano /etc/ssh/sshd_config --> PasswordAuthentication yes
+chmod u=rwx,g=rw,o=r <file_name>
+chmod ugo=rwx
+chmod u+x file1
+chmod u+x,g-w,o=r file1
+cat /proc/meminfo
+cat /proc/cpuinfo
+yum info wget 
+yum list installed
+yum list available
+ip a
+ip a show ens33
+chkconfig httpd on
+tar -cvf dir1.tar dir1
+ln -s src_file dest_file 
+ln src_file dest_file --> hard link
+/usr/local/bin
+ln -s /root/hello.sh /usr/local/bin/hello
+ssh-keygen -t rsa 
+ssh-add ~/.ssh/id_rsa_github
+eval `ssh-agent -s`
+adduser
+Linux Inherit File Permissions
+
+
+
+sudo shutdown -r now  -> reboot
+sudo shutdown -P now  -> shutdown 
+poweroff
+sudo shutdown -r 10
+sudo telinit 0
+sudo telinit 6
+
+du -sh * | sort -hr
+01 0 1 * * find $HOME/Build/dspace/log/*.log.* -mtime +30 -exec rm {} \;
+sed -i '$HOME/' mycron
+sed -i 's|$HOME|/home/dspace|g' mycron
+crontab mycron
+
+Add-AppxPackage -Path
+
 find /samba/walusih/Courses/ -type f -name "*\[CourseClub.Me\]*" -print | less
 find . -type f -name "*\[CourseClub.Me\]*" -print | less
 find . -type f -name "*\[CourseClub.Me\]*" -exec rm {} \;
@@ -16,14 +90,16 @@ find . -type f -name "*\[FreeCourseWorld.Com\]*" -exec rm {} \;
 find . -type f -name "*\[GigaCourse.Com\]*" -exec rm {} \;
 find . -type f -name "*\[CourseClub.NET]]\]*" -exec rm {} \;
 find . -type f -name "*\[FreeCourseSite.com]\]*" -exec rm {} \;
-find /samba/walusih/Courses/ -type f -name "*\[CourseClub.Me\]*" -exec rm {} \;  {*****}
-find /samba/walusih/Courses/ -type f -name "*\[DesireCourse.Net\]*" -exec rm {} \;
-find /samba/walusih/Courses/ -type f -name "*\[FreeCourseWorld.Com\]*" -exec rm {} \;
-find /samba/walusih/Courses/ -type f -name "*\[GigaCourse.Com\]*" -exec rm {} \;
+find /samba/walusih/ -type f -name "*\[CourseClub.Me\]*" -exec rm {} \; {*****}
+find /samba/walusih/ -type f -name "*\[DesireCourse.Net\]*" -exec rm {} \;
+find /samba/walusih/ -type f -name "*\[FreeCourseWorld.Com\]*" -exec rm {} \;
+find /samba/walusih/ -type f -name "*\[GigaCourse.Com\]*" -exec rm {} \;
 find . -type f -name "0. Websites you may like*" -exec rm {} \;   --> files 
 find . -type d -name "0. Websites you may like*" -exec rm -r {} \;
 find /samba/walusih/Courses/ -type d -name "0. Websites you may like*" -print
 find /samba/walusih/Courses/ -type d -name "0. Websites you may like*" -exec rm -r {} \;
+find /samba/walusih/ -type d -name "0. Websites you may like*" -exec rm -r {} \;
+find /samba/walusih/ -type d -name "0. Websites you may like" -exec rm -r {} + {*****}
 find . -type f -name "*\[CourseClub.Me\]*" -exec rm {} \;
 for i in *; do od -c <<< "$i"; done
 for i in /samba/walusih/*; do od -c <<< "$i"; done
@@ -575,7 +651,7 @@ journalctl --utc -b -X -ke						-> (Interactive Use)
 ls -halF /proc
 cat /proc/cpuinfo
 
------------------------------------ Linux Process States --------------------------------------
+--------------------------- Linux Process States --------------------------------------
 Running or Runnable (R)
 Uninterruptible Sleep (D)
 Interruptable Sleep (S)
