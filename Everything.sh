@@ -6,7 +6,49 @@ https://shortcutworld.com/en/Windows/10/win/all
 https://www.tecmint.com/vi-editor-usage/
 chrome://flags
 
+Mastering Python Scripting for System Administrators by Ganesh Sanjiv Naik
+Python for DevOps: Learn Ruthlessly Effective Automation by Noah Gift
+
 nvm install "lts/*" --reinstall-packages-from="$(nvm current)"
+
+git clone https://github.com/k3oni/pydash.git
+python -m venv venv 
+source venv/bin/activate
+deactivate 
+
+python -m venv venv --system-site-packages
+pip list --local
+pip2.7 install virtualenv --user
+virtualenv venv
+source venv/bin/activate
+python manage.py syncdb
+python manage.py runserver
+python manage.py runserver 0.0.0.0:8000
+ALLOWED_HOSTS : settings.py : ALLOWED_HOSTS = ["localhost", "192.168.8.160"]
+ALLOWED_HOSTS = ["*"]
+
+# Python 2.7.0:
+sudo apt install python2
+wget http://python.org/ftp/python/2.7.0/Python-2.7.0.tar.xz
+tar xf Python-2.7.0.tar.xz
+cd Python-2.7.0
+./configure --prefix=/usr/local --enable-optimizations --with-ensurepip=install --enable-unicode=ucs4 --enable-shared LDFLAGS="-Wl,-rpath /usr/local/lib" 
+make -j 4
+make && make altinstall
+
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7 1
+sudo update-alternatives --install /usr/bin/python python /usr/local/bin/python3.11 20
+sudo update-alternatives --install /usr/bin/python python /usr/local/bin/python2.7 3
+
+wget https://www.python.org/ftp/python/2.7.18/Python-2.7.18.tgz
+tar zxvf Python-2.7.18.tgz 
+cd Python-2.7.18 
+./configure --prefix=$HOME/opt/python-2.7.15 --with-ensurepip=install
+make
+make install
+
+export PATH=$HOME/opt/python-2.7.15/bin:$PATH
+. ~/.bash_profile
 
 :750
 
