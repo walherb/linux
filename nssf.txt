@@ -9,9 +9,112 @@ Heroku/Asterisk@202110
 AWS/Asterisk@2021
 WSL2004/Asterisk@2021
 OneDrive/Asterisk@21680
-21138732/21138732 -- NWSC -- (29/09/2022 @15:38) -> +256313315594 +256 701 771 525
+5225110005416925 390
+21138732/21138732 -- NWSC -- (29/09/2022 @15:38) -> +256313315594
+https://apps.nwsc.co.ug/online/Default.aspx
 0772527272
 1113	2301435769E		Camoflage73/https://vacancies.psc.go.ug/ors
+John-Smilga: Stopped on { Video: 131 -> Mtaching Projects(8-10) : 206 }
+ICEA/04339-001-706329-006-1
+0770961687
+
+----------------- Web Development in 2023 --------------------
+invision
+
+----- Linux Tools --------
+btop 
+fzf
+ffmpeg
+tldr 
+
+Developer Portfolio Projects to Get Hired
+1.Landing Page 
+2.Game 
+3.Database 
+4.web3 project 
+
+0392001524 -- Karveli Lumumba Avenue
+nvm install node --reinstall-packages-from=node
+nvm install "lts/*" --reinstall-packages-from="$(nvm current)"
+
+mount | column -t
+tsc index.ts -w
+tsc --init
+tsc -w
+
+blur-load {
+}
+
+To my dearest wife,
+Happy birthday! I can't believe another year has gone by. It feels like just yesterday we were celebrating your last birthday. Time really does fly when you're having fun.
+I'm so lucky to have you in my life. You're my best friend, my lover, and my soulmate. I love everything about you, from your beautiful smile to your kind heart. You make me a better man.
+I know I don't always say it, but I appreciate everything you do for me. You're always there for me, no matter what. You're my rock, my confidante, and my biggest supporter.
+I love you more than words can say. I can't wait to spend many more years with you.
+Happy birthday, my love!
+Love always,
+Your husband
+
+Lillianna Clifton
+
+function lengthOfLastWord(s) {
+    if (s.length === 0) {
+        return 0;
+    } else {
+        const words = s.trim().split(' ');
+        const lengthOfLastWord = words[words.length - 1].length;
+        return lengthOfLastWord;
+    }
+};
+
+<a
+  className="App-link"
+  href="https://reactjs.org"
+  target="_blank"
+  rel="noopener noreferrer">
+  Learn React
+</a>
+
+npm install --save-dev typescript
+"include": ["src"],
+"exclude": ["node_modules", "dist"]
+test: /\.(ts|js)x?$/i,
+eslint: probe
+
+Problem-Solving Skills 
+Communication Skils 
+Teamwork Skills 
+Attention to Detail
+Self-learning skills 
+Adaptability 
+Creativity 
+Passion
+
+
+1.What and Why
+2.Getting Started 
+3.Concepts 
+4.Code examples 
+5.API Documentation
+
+-- Lean FAST --
+1.Get an Overview 
+2.List Topics
+3.Learn the Topics 
+4.Apply Your Knowledge 
+5.Repeat 
+
+-- How To Learn JavaScript In 2023 - From Zero To Mid-Level Developer --
+- Mindset
+- Setup 
+- Basic Variables 
+- Functions/Scoping 
+- Advanced Variables 
+- Basic DOM 
+- Control Flow
+- Asynchronous Code 
+- Advanced DOM 
+- Modules/Bundlers
+- 
 
 https://uidesigndaily.com
 
@@ -22,14 +125,41 @@ ThisIsGlobalWarming@2013
 
 CASIO FX-991ES
 
+mydb=> \i basics.sql
+COPY weather FROM '/home/user/weather.txt';
+
+--------------------- I Waited 15 Years For These New Array Methods. ---------------------------
+const people = ["Sally", "Kyle", "John"]
+// const peopleCopy = [...people]
+prople.with(2, "New")
+people.sort()
+// [...people].sort()
+people.toSorted()
+people.reverse()
+people.toReversed()
+people.slice(0, 2, "New")
+people.toSpliced(0, 2, "New")
+
+CREATE DATABASE dvdrental;
+pg_restore -U postgres -d dvdrental dvdrental.tar
+psql -U postgres -c "CREATE DATABASE dvdrental;"
+
 git config --global --unset init.defaultbranch
 git config --global init.defaultBranch main
+git config --get-all init.defaultBranch
+git config --global init.defaultBranch main
+git config --global user.email walherb@gmail.com
 .gitconfig
 
 git remote add origin https://github.com/walherb/react-projects.git
 git branch -M main
 git push -u origin main
 
+git remote add origin https://github.com/walherb/03-advanced-react.git
+
+git remote add origin https://github.com/walherb/react-course-v3.git
+git branch -M main
+git push -u origin main
 
 PS D:\Repos\flask_react\backend> .\venv\Scripts\activate
 pip install flask flask_restx flask_sqlalchemy flask_jwt_extended
@@ -54,7 +184,6 @@ LoadModule status_module "modules/mod_status.so"
 httpd.exe -k install, uninstall
 httpd.exe -t
 httpd.exe -k start, stop, restart, shutdown
-
 
 0705767187
 

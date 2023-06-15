@@ -6,6 +6,68 @@ https://shortcutworld.com/en/Windows/10/win/all
 https://www.tecmint.com/vi-editor-usage/
 chrome://flags
 
+#! ----- Email Notifications for Dspace @Gmail ----------------------
+
+
+sudo apt purge postgresql-14
+sudo apt autoremove 
+ALTER USER postgres PASSWORD 'Asterisk@2021';
+
+pg_dump -d test -f test_backup.sql
+psql -d test -f test_backup.sql
+
+sudo nano /etc/postgresql/15/main/postgresql.conf -> listen_addresses = ‘*’
+sudo sed -i '/^host/s/ident/md5/' /etc/postgresql/15/main/pg_hba.conf
+sudo sed -i '/^local/s/peer/trust/' /etc/postgresql/15/main/pg_hba.conf
+
+sudo dpkg-query -l
+apt-cache policy steam
+apt --installed list
+cat /var/log/apt/history.log
+grep " install " /var/log/dpkg.log
+zgrep " install " /var/log/dpkg.log.11.gz
+zgrep " install " /var/log/dpkg.log.*.gz
+zgrep "upgrade " /var/log/dpkg.log.*.gz
+grep "remove " /var/log/dpkg.log
+
+#!/usr/bin/python3
+/usr/bin/env
+import glob
+for file in glob.glob('*.py'):
+    print(file)
+x, y, z = 10, 'John', 80
+x = y = z = 1
+a - b
+a | b
+a & b
+a ^ b
+{x: x**2 for x in (4, 6, 8)}
+dict(John=25, Nick=27, Jack=28)
+import sys; print(str(sys.argv))
+numbers = [10, 25, 54, 86, 89, 11, 33, 22]
+list(filter(lambda x: (x%2 == 0) , numbers))
+my_list = [1, 5, 4, 6, 8, 11, 3, 12]
+list(map(lambda x: x * 2 , my_list))
+
+python -m pdb pdb_example.py
+```python
+>>> import pdb_example
+>>> import pdb
+>>> pdb.run('pdb_example.Student(5).print_std()')
+(Pdb) continue
+```
+python -m trace --trace trace_example.py
+python -m cProfile cprof_example.py
+python -m unittest test_addition.py
+python -m unittest test_if.py
+
+pip install jupyter
+sudo apt install python3-pip
+sudo pip3 install virtualenv
+virtualenv pythonenv
+source venv/bin/activate
+deactivate
+
 Mastering Python Scripting for System Administrators by Ganesh Sanjiv Naik
 Python for DevOps: Learn Ruthlessly Effective Automation by Noah Gift
 

@@ -20,6 +20,9 @@
 \copy (SELECT * FROM sometable) TO 'C:/sometable.csv' WITH HEADER CSV FORCE QUOTE
 \copy ... from program	Allows you to copy output from an external program such as ls, dir, wget, curl. New in 9.3.
 
+-------------------- PostgreSQL Documentaion 15.3-1 ------------------------------------
+
+
 https://dzone.com/refcardz/essential-postgresql
 
 create table mydb3schema.table1 (id int, password CHAR(10));
@@ -158,7 +161,7 @@ DROP SCHEMA IF EXISTS <schema_name> CASCADE;
 
 DROP TABLE IF EXISTS <table_name> CASCADE;
 
--------------------#################	PostgreSQL Cheat Sheet	#########################----------------------
+-- #################	PostgreSQL Cheat Sheet	################### ----------------------
 http://www.petefreitag.com/cheatsheets/postgresql/
 
 CREATE DATABASE testDB;
@@ -225,7 +228,7 @@ GRANT ALL PRIVILIGES ON table TO userName;
 BEGIN TRANSACTION
 	UPDATE accounts SET balance += 50 WHERE id = 1;
 COMMIT;
-)
+
 ---------------------------------  BAsic SQL ---------------------------
 SELECT * FROM table;
 
@@ -421,10 +424,10 @@ ORDER BY p.product_id,   i.product_price) AS r;
 
 plpythonu, plpython2u, plpython3u (untrusted) lang
 CREATE FUNCTION fnfileexists(IN fname text) RETURNS   boolean AS
-$
+
 import os
 return os.path.exists(fname)
-$
+
 LANGUAGE 'plpythonu' STRICT;
 
 CREATE EXTENSION extension_name; -- {pgcrypto}

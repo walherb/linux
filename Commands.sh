@@ -1,9 +1,189 @@
-https://uae.sharafdg.com/product/lenovo-thinkpad-x1-carbon-gen-9-20xw000qad-laptop-core-i7-1165g7-2-80ghz-16gb-1tb-ssd-intel-iris-xe-graphics-win10-pro-14inch-fhd-black-3-years-warranty/?utm_campaign=marketing_automation&utm_source=synerise&utm_medium=
-/usr/share/redhat-release/EULA
 https://developers.redhat.com/cheat-sheets
 https://phoenixnap.com/kb/
 
 Auslogics Duplicate File Finder
+
+mount | column -t
+
+# --------------- Applied Linux Command Line and Shell Scripting Zero to Elite ---------
+%sudo   ALL=(ALL:ALL) ALL
+walusih ALL=(ALL:ALL) ALL
+walusih ALL=(ALL:ALL) NOPASSWD:ALL
+
+ps aux | sort -nr -k 3 | head -n 5
+apt list --installed  | grep htop
+apt search htop 
+apt search ^htop 
+lscpu 
+lsmem
+lsblk
+lspci 
+lsusb 
+dmidecode -t processor
+sudo inxi -F
+uptime -s
+date --date='yesterday'
+date --date='next friday'
+date --date='2 days ago'
+date --date='4 days ago' +'%d.%m.%y'
+cal -y
+cal -3
+last reboot
+sudo find / 2> /dev/null -user root -perm -4000 -exec ls -ldb {} \;
+sudo find / 2> /dev/null -user root -perm -2000 -exec ls -ldb {} \;
+sudo find / 2> /dev/null -user root -perm -1000 -exec ls -ldb {} \;
+ls -ld /tmp/
+sudo swapoff /dev/sda5 
+sudo dd if=/dev/sda5 conv=sync,noerror bs=64K | gzip -c /tmp/sda5.img.gz
+sudo gunzip -c /tmp/sda5.img.gz | sudo dd of=/dev/sda5 
+sudo swapon /dev/sda5 
+sudo mount -t iso9660 /dev/sr0 /mnt
+sudo unmont -f /mnt 
+ls -lh /boot
+uname -r 
+dpkg -l linux | grep -i linux-im 
+dpkg -l linux | grep -i linux-headers
+dpkg -l | grep -e linux-{image,headers}-* | awk '/^ii/ {print $2}' | egrep '[0-9]+\.[0-9]\.[0-9]' | grep -v `uname -r | cut -d "-" -f 1,2` | xargs sudo apt purge -y
+sudo runlevel
+sudo who -r
+grub -e linux --> rw single
+grub -e linux --> rw=/bin/bash single
+fsck.ext4 -pcvf /dev/sda1
+sudo fdsik -l
+sudo swapoff -a 
+fdisk /dev/sda
+mkswap -L swap /dev/sda2
+nano /etc/fstab
+sudo resize2fs /dev/sda1
+ps -auxf 
+ps aux 
+ps -AFl
+ps -AFl --forest 
+ps -AFH
+ps -e -o pid,user,args --forest
+ps -U root u --forest -l
+ps aux | grep -i firefox
+ps -Fp 19208
+ps -p 19208 -L -o
+ps -p 19208 -L -o pid,tid,pcpu,pmem,state,comm
+ps aux | sort -nr -k 3 | head -n 5
+ps aux | sort -nr -k 4 | head -n 5
+ps aux | sort -nr -k 6 | head -n 5
+ps -eo size,pid,user,pcpu,comm --sort rss | head -n 5
+pgrep firefox
+pstree 
+kill -l
+kill -9,15 PID
+pkill -9,15 top
+killall -9,15 top
+lsof | grep -i firefox 
+lsof i:80 
+lsof | grep -i /home/walusih
+lsof -p `pgrep firefox`
+watch -n 1 -d -b 'cat loadavg'
+sudo useradd jack -f 14 
+sudo useradd jack -e 2020-12-19 
+sudo userdel -r john
+sudo groupadd hona
+groups 
+sudo usermod -l hona -m -d /tmp/test hona
+sudo chage -M 90 -W 7 -I 30 -d 0 hona
+sudo chage -d 0 hona 
+for user in `ls /home`; do sudo chage -d 0 $user; done
+sudo chage -d 0 -E 2020-12-12 hona 
+sudo chage -l walusih
+sudo chage -E0 hona 
+sudo chage -E -1 hona 
+sudo usermod -L hona #lock
+sudo usermod -U hona #unlock
+sudo passwd -l hona
+sudo getfacl /tmp 
+sudo setfacl -m g:buy:wrx -R /tmp/test99
+sudo setfacl -m u:hona:x -R /tmp/test99
+%sudo   ALL=(ALL:ALL) ALL
+walusih ALL=(ALL:ALL) ALL
+walusih ALL=(ALL:ALL) NOPASSWD:ALL
+who -a 
+last 
+last -F
+last -F | grep -i "still logged in"
+for user in `ls /home`; do echo -n "$user: " ; last $user | head -1 | awk '{print substr ($0, 40)}'; done
+last -iF
+find / -user tup -ctime +1 -ctime -5 2>/dev/null
+sudo lastb
+sudo lastb -s -1day
+sudo last -f /var/log/*.btmp
+sudo nano /etc/rsyslog.conf -> authpriv.* /var/log/secure
+https://devhints.io/cron
+https://crontab.guru
+echo '* * * * * date >> /tmp/date.txt' | crontab -
+for user in `cat /etc/passwd | egrep -i "sh$" | cut -d ":" -f 1`; do sudo passwd -e $user; done
+while read line; do echo $line; done < num.txt 
+#!/bin/bash
+servers=$(cat servers.txt)
+echo -n "Enter username please:"
+read user
+echo -n "Enter your UID:"
+read uid
+
+for serv in $servers; do 
+echo "Creating user $user on $serv with UID $uid";
+ssh $serv "sudo useradd -m -u $uid $user"
+if [ $? -eq 0]; then 
+echo "USER $user added on $serv"
+else 
+echo "ERROR ON SERVER $Serv"
+fi
+done
+echo $?
+
+#!/bin/bash
+backup_dirs=("/etc" "/srv" "/boot" "/home/udemy/Desktop" "/home/udemy/Downloads")
+dest_dir="/tmp/backup"
+dest_server="root@192.168.1.102"
+backup_date=$(date +%b-%d-%Y-%H-%M-%S)
+echo "Starting to grap the backup of: ${backup_dirs[@]}"
+for i in "${backup_dirs[@]}"; do
+y=$i 
+i=$(echo -n $i | rev | cut -d "/" -f 1 | rev)
+sudo tar -Pczf /tmp/$i-$backup_date.tar.gz $y
+if [ $? -eq 0 ]; then 
+ehco "$y backup succeeded!"
+else 
+echo "$y backup failed !!!!!"
+fi 
+done
+scp /tmp/$i-$backup_date.tar.gz $dest_server:$dest_dir
+if [ $? -eq 0 ]; then 
+echo "$y Transfer succeeded!"
+else 
+echo "$y Transfer failed !!!!!"
+fi 
+done 
+sudo rm /tmp/*.gz; echo "BACKUP FINISHED"
+
+#!/bin/bash 
+filesystem=("/" "/root" "/home")
+for i in ${filesystem[@]}; do 
+usage=$(df -h $i | tail -n 1 | awk '{print $5}' | cut -d % -f 1)
+echo "Usage Percentage is: $usage%"
+if [ $usage -ge 90 ]; then 
+alert="Running out of space on $i, Usage is: $usage%"
+echo "Sending out a disk space alert mail."
+echo $alert | mail -s "$i is $usage% full" udemy@localhost
+fi
+done 
+
+# --------------------------------------------------------------------------------------
+apt-cache search <search term>
+apt-cache show <package name>
+sudo apt-get purge <package name>
+sudo apt-get autoremove
+sudo apt-get clean
+sudo apt-get autoclean
+
+2>/dev/null 
+PATH="$PATH:$HOME/bin"
 
 chmod +t .
 setfacl -m d:u:username:rwx,d:g:groupname:rwx .
@@ -39,7 +219,6 @@ sed -n '5,10p' file1
 sed '5,10d' file1 
 sed 's/#/ /' file1
 id root
-useradd walusih
 usermod -aG sudo walusih
 nano /etc/ssh/sshd_config --> PasswordAuthentication yes
 chmod u=rwx,g=rw,o=r <file_name>
@@ -94,6 +273,8 @@ find /samba/walusih/ -type f -name "*\[CourseClub.Me\]*" -exec rm {} \; {*****}
 find /samba/walusih/ -type f -name "*\[DesireCourse.Net\]*" -exec rm {} \;
 find /samba/walusih/ -type f -name "*\[FreeCourseWorld.Com\]*" -exec rm {} \;
 find /samba/walusih/ -type f -name "*\[GigaCourse.Com\]*" -exec rm {} \;
+find /samba/walusih/ -type f -name "*\[CourseClub.NET]]\]*" -exec rm {} \;
+find /samba/walusih/ -type f -name "*\[FreeCourseSite.com]\]*" -exec rm {} \;
 find . -type f -name "0. Websites you may like*" -exec rm {} \;   --> files 
 find . -type d -name "0. Websites you may like*" -exec rm -r {} \;
 find /samba/walusih/Courses/ -type d -name "0. Websites you may like*" -print
@@ -118,16 +299,12 @@ find . -type f -name "*(*)*" -delete -maxdepth 1
 find . -type f -name "*(*)*" -print -maxdepth 1
 find . -type f -name "*(*)*" -exec rm -rf {} \;
 
------------ 18 Conmmands That Will Change The Way You Use Linux Forever --> YT ---------------
+--------- 18 Conmmands That Will Change The Way You Use Linux Forever --> YT -----------
 Ctrl+L -- reset
 Ctrl+Z -- background 
-sudo !!
 Ctrl+R -- Search History 
-!102
 HISTTIMEFORMAT="%Y-%m-%d %T "
 vi ~/.bashrc --> 
-cmatrix 
-F11
 Ctrl+U		-- clear line 
 Ctrl+A 		-- beginning of the line 
 Ctrl+E		-- end of the line 
@@ -137,7 +314,6 @@ mount | column -t
 ps -eo comm,pcpu --sort -pcpu | head -5; ps -eo comm,pmem --sort -pmem | head -5
 curl wttr.in		-- weather 
 Shift+Pg Up/Dn 
-
 
 Bash Scripting Cookbook 2nd Edition
 Complete Linux Bash Shell Scripting with Real Life Examples
@@ -157,7 +333,6 @@ sudo apt install net-tools
 [[ -f /sbin/ifconfig ]] && echo "ifconfig exists"
 export PATH=$PATH:/sbin
 
-
 apt install lsb-base lsb-release
 sudo apt install lsb-core
 lsb_release -cdr
@@ -169,38 +344,26 @@ https://www.sysnettechsolutions.com/en/install-debian-vmware/
 https://www.cyberithub.com/solved-package-has-no-installation-candidate-in-debian/
 https://itslinuxfoss.com/initial-server-setup-with-debian-eleven/
 
-https://www.linuxshelltips.com/install-apache-tomcat-rhel-8/
-https://techviewleo.com/how-to-install-apache-tomcat-on-rhel-centos/
-https://technixleo.com/install-apache-tomcat-centos-rhel-alma-9/
-https://www.linuxshelltips.com/install-apache-tomcat-rhel-9/#:~:text=Step%202%3A%20Installing%20Apache%20Tomcat%20in%20RHEL%209&text=Now%20head%20over%20to%20Apache,via%20the%20following%20curl%20command.&text=Next%2C%20use%20the%20tar%20command,the%20downloaded%20apache%2Dtomcat%20file.&text=Rename%20the%20extracted%20directory%20to,move%20%2Fusr%2Flocal%20directory.
-
 [[ -f /sbin/ifconfig ]] && echo "ifconfig exists"
 
 -- https://packetpushers.net/ubuntu-extend-your-default-lvm-space/#:~:text=Select%20your%20%2Fdev%2Fsda3%20partition,to%20confirm%2C%20and%20hit%20ENTER. --
 
 cat -n <filename>		-> 		(Display line numbers)
 locate <filename>
-du 
 diff  
 kill
 -15 saves all progress before closing the process.
 -9 forces a stop immediately.
-file 
-wc
-ip addr
-whoami
 mount -t <type> <device> <directory>
-which 
 whatis cat
 
-df -h
 vgdisplay
 lvdisplay
 lvextend -l +100%FREE /dev/ubuntu-vg/ubuntu-lv
 resize2fs /dev/mapper/ubuntu--vg-ubuntu--lv
 
 https://www.baeldung.com/linux/linux-administration-series
------------------ Find Out the Total Physical Memory (RAM) on Linux ---------------------
+--------------- Find Out the Total Physical Memory (RAM) on Linux ---------------------
 free -h
 free -h -s 5			-> (print every 5 seconds)
 free -h --si			-> (Power of 1000 Formatting)
@@ -228,7 +391,7 @@ echo "Total RAM: $ram_size kB"
 $ chmod +755 totalram.sh
 $ ./totalram.sh
 
-------------------- Tracking Down Where Disk Space Has Gone on Linux ----------------------
+------------------- Tracking Down Where Disk Space Has Gone on Linux -------------------
 df -h
 du -BM --max-depth=1 /var | sort -n | tail -n 5
 –B option is used to specify the block size unit (Megabyte in this case)
@@ -242,8 +405,7 @@ lsof | grep -E '^COM|deleted'
 mc /var			-> 		(Midnight Commander File Manager)
 ncdu /var
 
-
--------------------------- Shut Down and Reboot Linux Systems From the Terminal ----------------------
+--------------- Shut Down and Reboot Linux Systems From the Terminal -------------------
 file /sbin/{halt,poweroff,reboot,shutdown}
 shutdown -r
 shutdown -H
@@ -254,10 +416,8 @@ shutdown -r +45 "Attention: This system will restart in 45 minutes!"
 shutdown -c "Scheduled reboot is cancelled."
 reboot
 halt --reboot
-poweroff --reboot
 halt
 reboot --halt
-poweroff --halt
 poweroff
 reboot -p
 halt -p
@@ -291,7 +451,7 @@ cat /proc/stat |grep cpu |tail -1|awk '{print ($5*100)/($2+$3+$4+$5+$6+$7+$8+$9+
 top -bn2 | grep '%Cpu' | tail -1 | grep -P '(....|...) id,'|awk '{print "CPU Usage: " 100-$8 "%"}'
 
 
------------------------------- Using the find -exec Command Option ----------------------------------
+------------------------- Using the find -exec Command Option -------------------------
 find Music/ -name *.mp3 -exec file {} \;
 function mp3info() {
     TRACK_NAME=$(basename "$1")
@@ -304,7 +464,7 @@ find . -name "*.mp3" -exec bash -c "basename \"{}\" && file \"{}\" | awk -F: '{\
 find . -name "*.mp3" -exec echo {} +
 find . -name "*.mp3" -exec echo {} \;
 
------------------------------ Difference Between .bashrc, .bash-profile, and .profile --------------
+# --------------- Difference Between .bashrc, .bash-profile, and .profile --------------
 The .bash_profile file contains commands for setting environment variables. Consequently, future shells inherit these variables.
 In an interactive login shell, Bash first looks for the /etc/profile file. If found, Bash reads and executes it in the current shell. As a result, /etc/profile sets up the environment configuration for all users.
 Similarly, Bash then checks if .bash_profile exists in the home directory. If it does, then Bash executes .bash_profile in the current shell. Bash then stops looking for other files such as .bash_login and .profile.
@@ -343,7 +503,7 @@ fi
 PATH=$PATH:$HOME/bin export PATH
 
 
---------------------------- What’s the Difference Between sh and Bash? ------------------------------
+----------------------- What’s the Difference Between sh and Bash? ---------------------
 grep $USER /etc/passwd
 cat /etc/shells
 file -h /bin/sh
@@ -370,7 +530,7 @@ $ ./is_even
 Enter a number: 13
 13 is odd
 
----------------------------- Combine and Execute Multiple Linux Commands -----------------------------
+--------------------- Combine and Execute Multiple Linux Commands ----------------------
 cd logs; ls -lt | head; du -sh ; df -h
 cd archive_old; rm -rf *
 cd archive_oldd && rm -rf *
@@ -389,7 +549,7 @@ date && ./execute_backup_db.sh && date & > execute_backup_db.log
 (date ; ./execute_backup_db.sh ; date) & > execute_backup_db.log
 
 
--------------------------- How to Delete the History of the Last n Commands? -------------------------
+----------------- How to Delete the History of the Last n Commands? --------------------
 for h in {1..5}; do sed -i '$d' ~/.bash_history; done;			->	(Delete Last n Lines from .bash_history)
 for h in {1987..1991}; do history -d 1987; done					->	(Delete Last n Lines in history)
 for h in {1987..1991}; do history -d 1987; done; history -d $(history 1 | awk '{print $1}')
@@ -413,7 +573,7 @@ history -d 2001-2004			-> (Bash 5)
 history -d -5--1				-> (Let’s delete the last 5 lines of history)
 
 
--------------------------- Changing the Default Shell in Linux ----------------------------------
+-------------------------- Changing the Default Shell in Linux -------------------------
 chsh -l
 echo $SHELL
 echo $$
@@ -422,13 +582,13 @@ chsh -s /bin/bash						->	(Changing the Default Shell of the Current User)
 chsh -s /bin/sh kent 					-> (other user)
 
 
-------------------------- Locale Environment Variables in Linux ---------------------------
+---------------------- Locale Environment Variables in Linux ---------------------------
 locale
 export LANG=es_ES.UTF-8
 man man
 export LC_ALL=				-> reset
 
-------------------------- Running Script or Command as Another User in Linux ---------------
+--------------------- Running Script or Command as Another User in Linux ---------------
 cat > /home/annie/annie-script.sh <<EOF
 echo "Running annie-script.sh as user $(whoami)"
 EOF
@@ -453,7 +613,7 @@ dave ALL=(ALL) /home/annie/annie-script.sh
 dave ALL=(ALL) NOPASSWD: /home/annie/annie-script.sh
 
 
------------------------ How to Change the Default Home Directory of a User --------------------
+--------------- How to Change the Default Home Directory of a User --------------------
 sudo useradd -m baeldung
 sudo useradd -m -d /home/baeldung baeldung
 sudo usermod -d /usr/baeldung baeldung				-> (Changing the Default Home Directory)
@@ -500,8 +660,7 @@ root:0
 EOF
 sshfs bob@192.168.1.16:/tmp/DATA /mnt/DATA -o idmap=file -o uidfile=uid-mapping -o gidfile=gid-mapping
 
-
--------------------------------- "No such file or directory" Error When Executing a Binary ---------------------
+------------- "No such file or directory" Error When Executing a Binary ----------------
 objdump -p binaryfile | grep NEEDED
 ldd binaryfile
 readelf -a binaryfile | grep NEEDED
@@ -520,7 +679,6 @@ gcc -o MyProgram *.o -L path/to/libdir -lfile.a
 
 gcc -shared -o libfile.so *.o
 
-
 ---------------------------------- How to Remove Symbolic Links ------------------------
 rm fileLink
 rm dirLink
@@ -528,7 +686,7 @@ unlink fileLink
 find . -type l -name '2bDeleted*' | xargs -I{} rm "{}"
 
 
------------------------------ Rotating Logs With Logrotate in Linux ---------------------
+------------------------ Rotating Logs With Logrotate in Linux ---------------------
 sudo apt-get update
 sudo apt-get install -y logrotate
 logrotate log-rotation.conf
@@ -573,7 +731,7 @@ daily, weekly, monthly, and yearly
 
 
 
-------------------------- Fixing the “Too many open files” Error in Linux -----------------------------
+---------------- Fixing the “Too many open files” Error in Linux ----------------------
 0 for stdin, 1 for stdout, and 2 for stderr
 awk '{print $1}' /proc/sys/fs/file-nr				-> (Global Usage)
 sudo lsof -p $(pidof caddy)							-> (Per-Process Usage)
@@ -585,7 +743,7 @@ pid=31540
 
 
 
------------------------- Fixing the “Command Not Found” Error When Using Sudo -----------------
+----------------- Fixing the “Command Not Found” Error When Using Sudo -----------------
 PATH="$PATH:$HOME/bin"
 sudo -E myscript
 /etc/sudoers
@@ -614,7 +772,7 @@ $ sudo systemctl restart apache.service
 fs.file-max = 500000
 sysctl -p
 
--------------------------------- Mapping Hostnames with Ports in /etc/hosts ------------------------
+------------------- Mapping Hostnames with Ports in /etc/hosts ------------------------
 cat /etc/hosts
 127.0.0.1       localhost
 127.0.1.1       DSpace-KYU
@@ -632,7 +790,7 @@ server {
 }
 127.0.0.1:8080.
 
------------------------------- Kill All Members of a Process Group -----------------------------
+------------------- Kill All Members of a Process Group -----------------------------
 ps -efj
 ps -efj | egrep "PGID|children|parent"
 kill -- -$PGID
@@ -640,14 +798,14 @@ kill -- -6389
 kill -9 -6389
 kill -SIGQUIT -6389
 
-------------------------------- How to Find Which Process Was Killed by Linux OOM Killer ---------------------
+---------- How to Find Which Process Was Killed by Linux OOM Killer -------------------
 journalctl --list-boots | \
     awk '{ print $1 }' | \
     xargs -I{} journalctl --utc --no-pager -b {} -kqg 'killed process' -o verbose --output-fields=MESSAGE
 	
 journalctl --utc -b -X -ke						-> (Interactive Use)
 
---------------------------------- The Most Common Flags in /proc/cpuinfo with Examples --------------------
+------------- The Most Common Flags in /proc/cpuinfo with Examples --------------------
 ls -halF /proc
 cat /proc/cpuinfo
 
@@ -665,11 +823,11 @@ At the bottom section of the output of the top command, we can find the S column
 cat /proc/$PID/status | grep State
 
 
----------------------------------------- Copying SSH Keys To Another Machine --------------------------
+-------------------- Copying SSH Keys To Another Machine --------------------------
 ssh-copy-id walusih@192.168.64.129
 
 
--------------------------------- Encrypting and Decrypting Directory in Linux ----------------------
+------------------- Encrypting and Decrypting Directory in Linux ----------------------
 apt-get install -y gnupg-utils
 gpgtar --version
 apt-get install -y encfs
@@ -1168,12 +1326,7 @@ ubuntu2004 config --default-user root
 
 RSVP 0775653730,0707262156,0781423454.
 
-0772465617
-0778930877
-0772920886
-0702330493
-0703981227
-------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
 (( $(rpm -E %{rhel}) >= 8 )) && dnf remove $(dnf repoquery --installonly --latest-limit=-2 -q)
 
 https://wiki.lib.sun.ac.za/index.php/SUNScholar/Handle_Server

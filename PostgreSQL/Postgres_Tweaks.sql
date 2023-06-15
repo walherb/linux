@@ -12,8 +12,8 @@ psql -f psql-14-databases.sql postgres
 
 https://drive.google.com/file/d/1OlbpXYL1VPJ_hgEEZOQciTSvrvuJXuAQ/view?usp=sharing
 
---! ---------------------- Learn these quick tricks in PostgreSQL (*****) ----------------------------------
---! ---------------------- https://www.freecodecamp.org/news/postgresql-tricks/ --------------------
+--! ------------- Learn these quick tricks in PostgreSQL (*****) ----------------------
+--! ---------- https://www.freecodecamp.org/news/postgresql-tricks/ --------------------
 -- Peter Gleeson: { https://www.freecodecamp.org/news/author/peter/ }
 -- Copy data from a file
 -- https://gist.github.com/pg0408/43664635ee89558ba4961a84b833342b
@@ -944,7 +944,7 @@ cmd.exe /c chcp 1252
 \pset border 2
 
 
-------------------- Learn PostgreSQL Tutorial - Full Course For Beginners (AmigosCode/freecodecamp YT) ------------------
+-- Learn PostgreSQL Tutorial - Full Course For Beginners (AmigosCode/freecodecamp YT) --
 CREATE DATABASE test;
 DROP DATABASE test;
 psql --help
@@ -1033,7 +1033,7 @@ ALTER TABLE products RENAME COLUMN product_no TO product_number;
 ALTER TABLE products RENAME TO items;
 
 
--- Selecting the last element in the table or the last given items in the table
+-- Selecting the last element in the table or the last given items in the table --
 SELECT * FROM person ORDER BY id DESC LIMIT 10;
 
 SELECT DISTINCT country_of_birth FROM person ORDER BY country_of_birth;
