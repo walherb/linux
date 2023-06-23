@@ -2994,4 +2994,55 @@ find . -size +3000k -print
 find . -name '*.txt' -exec grep -Hi portend '{}' \;
 locate apropos
 
-# ------------------- Stopped @ CHAPTER 11 Working with Dates and Times ----------------------
+# ------------------- Stopped @ CHAPTER 11: Working with Dates and Times ----------------------
+date '+%Y-%m-%d %H:%M:%S %z'
+date -d 'today' '+%Y-%m-%d %H:%M:%S %z'
+date -d 'yesterday' '+%Y-%m-%d %H:%M:%S %z'
+date -d 'tomorrow' '+%Y-%m-%d %H:%M:%S %z'
+date -d 'Monday' '+%Y-%m-%d %H:%M:%S %z'
+date -d 'this Monday' '+%Y-%m-%d %H:%M:%S %z'
+date -d 'last Monday' '+%Y-%m-%d %H:%M:%S %z'
+date -d 'next Monday' '+%Y-%m-%d %H:%M:%S %z'
+date -d 'last week' '+%Y-%m-%d %H:%M:%S %z'
+date -d 'next week' '+%Y-%m-%d %H:%M:%S %z'
+date -d '2 weeks' '+%Y-%m-%d %H:%M:%S %z'
+date -d '-2 weeks' '+%Y-%m-%d %H:%M:%S %z
+date -d '2 weeks ago' '+%Y-%m-%d %H:%M:%S %z'
+date -d '+4 days' '+%Y-%m-%d %H:%M:%S %z
+date -d '-6 days' '+%Y-%m-%d %H:%M:%S %z'
+date -d '2000-01-01 +12 days' '+%Y-%m-%d %H:%M:%S %z'
+date -d '3 months 1 day' '+%Y-%m-%d %H:%M:%S %z'
+
+date -d '2023-04-28 +6 weeks' '+%Y-%m-%d %H:%M:%S %z'
+
+# Run the first Wednesday @ 23:00
+00 23 1-7 * Wed [ "$(date '+\%a')" == "Wed" ] && /path/to/command
+
+# ------------------- Stopped @ CHAPTER 12: End-User Tasks as Shell Scripts ----------------------
+
+# ------------------- Stopped @ CHAPTER 13: Parsing and Similar Tasks ----------------------
+cut -d':' -f6 /etc/passwd | cut -d'/' -f1-3 | sort -u
+awk 'BEGIN {FS=":"; OFS="\t"; } { print $1,$7,$6; }' /etc/passwd
+grep '^# [1-9]' /etc/hosts | awk '{print $3,$2}'
+sed 's;/csh$;/sh;' /etc/passwd | grep '^root'
+shopt -s extglob
+awk 'BEGIN { FS="\t"; OFS="\",\"" } { gsub(/"/, "\"\""); $1 = $1;
+> printf "\"%s\"\n", $0}' tab_delimited #Use awk to convert the data into CSV format:
+
+# ------------------- Stopped @ CHAPTER 13: Writing Secure Shell Scripts ----------------------
+export PATH=$(getconf PATH)
+export PATH='/usr/local/bin:/bin:/usr/bin'
+\unalias -a 	#Clearing All Aliases
+hash -r	#Clearing the Command Hash
+ulimit -H -c 0 --	# Preventing Core Dumps
+IFS=$' \t\n'	#Setting a Secure $IFS
+#Setting a Secure umask
+UMASK=002
+umask $UMASK
+find some_directory -type f -print0 | xargs -0 chmod 0644
+find some_directory -type d -print0 | xargs -0 chmod 0755
+
+fold -w75 ~/.ssh/id_rsa.pub
+ssh remote_host "echo $(cat ~/.ssh/id_rsa.pub) >> ~/.ssh/authorized_keys"
+
+# ------------------- Stopped @ CHAPTER 15: Advanced Scripting ----------------------

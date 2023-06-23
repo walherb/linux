@@ -1,22 +1,223 @@
-﻿100 NSSF -- 8711200197718 NSSF BALANCE 10,756,889 AFTER 2 YRS 32,000,000 7013  0800 286773 -- Toll Free
+﻿100 NSSF -- 8711200197718 NSSF  0800 286773 -- Toll Free
 NSSF @ END OF MARCH 11,206,949
 TIN -- 1001308780 202104  202107 202112 asterisk2021/24
 TIN -- 1000066303 WILTA CARGO SERVICES LIMITED
 TIN -- 1000059368 LINE AGENCY (U) LIMITED  -- Baptist Wanji
 SNID:  22213449816 - Acer Laptop	XEN/kyu@dicts2014
+HP ProBook 450 G4: {SN:5CD7031J0V,PN:W7C89AV}
 MSAccount/Wal@herb35680
 Heroku/Asterisk@202110
 AWS/Asterisk@2021
-WSL2004/Asterisk@2021
 OneDrive/Asterisk@21680
-5225110005416925 390
+5225110005416925390
 21138732/21138732 -- NWSC -- (29/09/2022 @15:38) -> +256313315594
 https://apps.nwsc.co.ug/online/Default.aspx
 0772527272
 1113	2301435769E		Camoflage73/https://vacancies.psc.go.ug/ors
-John-Smilga: Stopped on { Video: 131 -> Mtaching Projects(8-10) : 206 }
+John-Smilga-HTML: Stopped on { Video: 28 }
+John-Smilga: Stopped on { Video: 143 -> Matching Projects(12-13) : 227 }
 ICEA/04339-001-706329-006-1
 0770961687
+GPS Car Tracker: {0706619663,0788160160} Qubern GPS Tracking Eseri Complex
+# Run the first Wednesday @ 23:00
+00 23 1-7 * Wed [ "$(date '+\%a')" == "Wed" ] && /path/to/command
+
+Alt + Shift + =   {:Windows Terminal Vertically}
+Alt + Shift + -   {:Windows Terminal Horizantally}
+Ctrl + Shift + w  {:Close}
+
+MesloLGS Nerd Font
+
+https://learn.microsoft.com/en-us/windows/terminal/tutorials/custom-prompt-setup 
+set $TERM=xterm-256color
+Add-AppxPackage -Path <Path to MSIXBundle file>
+winget install JanDeDobbeleer.OhMyPosh -s winget
+Install-Module oh-my-posh -Scope CurrentUser
+Set-PoshPrompt -Theme jandedobbeleer
+(Get-Command oh-my-posh).Source
+oh-my-posh init pwsh | Invoke-Expression
+oh-my-posh font install --> Meslo 
+
+Install-Module -Name Terminal-Icons -Repository PSGallery
+Install-Module -Name PSReadLine
+code $PROFILE
+oh-my-posh init pwsh | Invoke-Expression
+Import-Module -Name Terminal-Icons
+Import-Module -Name PSReadLine
+
+Set-PSReadLineOption -PredictionSource History
+Set-PSReadLineOption -PredictionViewStyle ListView
+Set-PSReadLineOption -EditMode Windows
+
+Set-PSReadLineOption -PredictionViewStyle InlineView
+
+
+Uninstall-Module oh-my-posh -AllVersions
+Import-Module oh-my-posh
+oh-my-posh init pwsh --config ~/.custom.omp.json | Invoke-Expression
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\jandedobbeleer.omp.json" | Invoke-Expression
+
+curl -s https://ohmyposh.dev/install.sh | bash -s
+oh-my-posh font install
+eval "$(oh-my-posh init bash)"
+eval "$(oh-my-posh init bash --config ~/jandedobbeleer.omp.json)"
+exec bash
+. ~/.profile
+
+CaskaydiaCove NF
+
+WSL2: Debian Explorer -> \\wsl$
+explorer.exe .
+
+Step up your front-end skills with these 5 resources  
+https://frontendmentor.io
+https://stylestage.dev 
+https://cssbattle.dev
+https://codewars.com 
+https://frontendpractice.com 
+https://firsttimersonly.com
+
+Unrecognized option found: source-rootsPylint(E0015:unrecognized-option)
+
+"editor.rulers": [
+    {"column":   0, "color": "#5a5a5a80"}, // left boundary is 50% opaque
+    {"column":   2, "color": "#5a5a5a20"}, // tab stops are 12.5% opaque
+    {"column":  40, "color": "#5a5a5a20"}, // center line
+    {"column":  79, "color": "#5a5a5a20"}, // right rule minus one
+    {"column":  80, "color": "#5a5a5a80"}, // right rule
+    {"column": 120, "color": "#5a5a5a40"}  // extra right rule
+],
+
+SEO -> Search Engine Optimization
+
+-- Traits of a Good Programmer --
+1.Patience 
+2.Motivation 
+3.Problem Solving 
+4.Communication
+5.Willingness to Learn 
+
+npx creat-next-app .
+npm create vite@latest 
+
+https://www.vultr.com/docs/force-apt-get-to-ipv4-or-ipv6-on-ubuntu-or-debian
+apt-get -o Acquire::ForceIPv4=true update
+sudoedit /etc/apt/apt.conf.d/99force-ipv4
+Acquire::ForceIPv4 "true";
+
+wsl --set-default-version 2
+https://pureinfotech.com/install-windows-subsystem-linux-2-windows-10/
+wsl --list --online
+wsl --install -d Debian
+wsl --update
+wsl -t Debian 
+
+wsl --shutdown
+[wsl2]
+memory=2GB
+processors=2
+Save as: "%UserProfile%\.wslconfig"
+notepad "$env:USERPROFILE/.wslconfig"
+
+echo 3 | sudo tee /proc/sys/vm/drop_caches
+Restart-Service LxssManager
+Get-Service LxssManager | Restart-Service
+
+free -h --giga
+editor "$(wslpath "C:\Users\YourUsername\.wslconfig")"
+code "$(wslpath "%UserProfile%\.wslconfig")"
+
+sudo nano /etc/apt/sources.list 
+
+https://askubuntu.com/questions/1379425/system-has-not-been-booted-with-systemd-as-init-system-pid-1-cant-operate
+wsl ~ 
+sudo -e /etc/wsl.conf
+[boot]
+systemd=true
+wsl --shutdown
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background: linear-gradient(to bottom right, red, orange);
+    border-radius: 10px;
+    text-align: center;
+    transition: background 0.5s;
+}
+
+.button:hover {
+    background: linear-gradient(to bottom right, orange, red);
+}
+
+
+----------------- CSS Animations ----------------------
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.spinner {
+    animation: spin 2s linear infinite;
+}
+
+--------------------- Fade-In Effect -----------------
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.fade-in-element {
+    animation: fadeIn 2s;
+}
+
+-------------------- Slide-In Menu -----------------
+@keyframes slideIn {
+    0% {transform: translateX(-100%);}
+    100% {transform: translateX(0);}
+}
+
+.slide-in-menu {
+    animation: slideIn 0.5s forwards;
+}
+
+-------------------- Responsive Design ------------------
+.container {
+    width: 100%;
+    padding: 15px;
+}
+
+@media (min-width: 600px) {
+    .container {
+        width: 600px;
+        margin: 0 auto;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+npm ls vite 
+https://pexels.com
+https://pixabay.com
+https://gratisography.com
 
 ----------------- Web Development in 2023 --------------------
 invision
@@ -209,7 +410,25 @@ sudo apt remove --purge mariadb-server
 sudo apt purge mariadb-server
 sudo apt autoremove
 
+sudo apt show mariadb-server
+apt install mariadb-server
+sudo systemctl start mariadb
+sudo systemctl enable mariadb
+
+docker pull mariadb:10.11
+docker run -p 3306:3306 -d mariadb:10.11
+
+pub   rsa4096 2014-06-10 [SC]
+      6125 E2A8 C77F 2818 FB7B  D15B 93C4 A3FD 7BB9 C367
+uid           [ unknown] Launchpad PPA for Ansible, Inc.
+sudo apt-key export 7BB9C367 | sudo gpg --dearmour -o /etc/apt/trusted.gpg.d/ansible.gpg
+
 https://computingforgeeks.com/how-to-install-mariadb-on-debian-linux/
+sudo apt update && sudo apt upgrade -y
+[ -f /var/run/reboot-required ] && sudo reboot -f
+sudo apt install curl software-properties-common dirmngr -y
+curl -LsS -O https://downloads.mariadb.com/MariaDB/mariadb_repo_setup
+sudo bash mariadb_repo_setup --mariadb-server-version=10.11
 
 sudo add-apt-repository 'deb [arch=amd64,arm64,ppc64el] http://mirror.nodesdirect.com/mariadb/repo/10.11/debian bullseye main'
 
@@ -220,13 +439,12 @@ sudo bash mariadb_repo_setup --mariadb-server-version=10.11
 sudo apt update && sudo apt upgrade 
 sudo apt install wget build-essential libncursesw5-dev libssl-dev \
      libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev libffi-dev zlib1g-dev
-wget https://www.python.org/ftp/python/3.11.3/Python-3.11.3.tgz
+wget https://www.python.org/ftp/python/3.11.4/Python-3.11.4.tgz
 tar xzf Python-3.11.3.tgz
 cd Python-3.11.3
 ./configure --enable-optimizations
 sudo make -j 4
 sudo make altinstall
-make altinstall 
 python3.11 -V
 pip3.11 -V
 
@@ -241,7 +459,17 @@ update-alternatives --config python
 sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7 1
 sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.9 2
 sudo update-alternatives --install /usr/bin/python python /usr/local/bin/python3.11 20
+sudo update-alternatives --install /usr/bin/pip pip /usr/local/bin/pip3.11 2
 sudo update-alternatives --config python
+update-alternatives --set pip /usr/bin/pip3
+sudo update-alternatives --set pip /usr/local/bin/pip3.11
+
+pip config set global.default-pip /usr/local/bin/pip3.11 
+
+sudo apt-get --purge remove python3.9
+
+sudo apt install python3
+
 
 C:\> py -3.9 -c "import time; print(time.asctime())"
 
@@ -258,7 +486,7 @@ Secret Recovery Phrase
 
 https://1337x.to/torrent/5482561/Code-With-Mosh-The-Ultimate-Data-Structures-Algorithms-Course-Series-FCO/
 
-Dark Theme for Google Chrome
+Dark New Tab -> Theme for Google Chrome
 
 706329 and. account number  04339-001-706329-006-1
 
@@ -320,7 +548,8 @@ info@pcworldcomputers.co.ug
   },
   "files.associations": {
     "*.js": "javascript",
-    "*.jsx": "javascriptreact"
+    "*.jsx": "javascriptreact",
+	"*.tsx": "typescriptreact"
   },
   "explorer.confirmDragAndDrop": false,
   "[typescript]": {
@@ -331,7 +560,8 @@ info@pcworldcomputers.co.ug
   },
   "html.format.enable": true,
   "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
+    // "editor.defaultFormatter": "vscode.html-language-features"
+	"editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "workbench.iconTheme": "vscode-icons",
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true

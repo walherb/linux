@@ -6,8 +6,36 @@ https://shortcutworld.com/en/Windows/10/win/all
 https://www.tecmint.com/vi-editor-usage/
 chrome://flags
 
-#! ----- Email Notifications for Dspace @Gmail ----------------------
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+:PlugInstall
+:PlugUpdate
+:PlugInstall nerdtree
+:PlugUpgrade
+:PlugClean
+:source %
 
+#! ----- Email Notifications for DSpace @Gmail ----------------------
+
+@pitosalas try  apt-get remove --purge open-vm-tools open-vm-tools-desktop and apt-get install --reinstall open-vm-tools and apt-get install --reinstall open-vm-tools-desktop, and reboot the VM.
+Good luck!
+
+#! -------------- https://www.tecmint.com/upgrade-debian-11-to-12/ ---------------
+lsb_release -a
+uname -mrs
+cat /etc/debian_version
+sudo apt update && sudo apt upgrade
+sudo apt --purge autoremove
+sudo nano /etc/apt/sources.list
+sudo apt update 
+sudo apt upgrade --without-new-pkgs
+sudo apt full-upgrade
+sudo apt --purge autoremove
+sudo apt install python3-venv python3-pip
+sudo pip3 install --upgrade pip
+sudo apt --purge autoremove
+
+
+#! -------------------------------------------------------------------------------
 
 sudo apt purge postgresql-14
 sudo apt autoremove 
@@ -19,6 +47,9 @@ psql -d test -f test_backup.sql
 sudo nano /etc/postgresql/15/main/postgresql.conf -> listen_addresses = ‘*’
 sudo sed -i '/^host/s/ident/md5/' /etc/postgresql/15/main/pg_hba.conf
 sudo sed -i '/^local/s/peer/trust/' /etc/postgresql/15/main/pg_hba.conf
+sudo sed -i '/^local/s/trust/scram-sha-256/' /etc/postgresql/15/main/pg_hba.conf
+scram-sha-256
+
 
 sudo dpkg-query -l
 apt-cache policy steam
@@ -101,6 +132,8 @@ make && make altinstall
 sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7 1
 sudo update-alternatives --install /usr/bin/python python /usr/local/bin/python3.11 20
 sudo update-alternatives --install /usr/bin/python python /usr/local/bin/python2.7 3
+
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 1
 
 wget https://www.python.org/ftp/python/2.7.18/Python-2.7.18.tgz
 tar zxvf Python-2.7.18.tgz 
@@ -1912,7 +1945,6 @@ https://askubuntu.com/questions/73864/how-to-modify-an-invalid-etc-sudoers-file-
 
 pkexec visudo
 
-
 ########################## Nagios Core Vs Nagios XI ###########################
 http://www.thegeekstuff.com/2010/02/nagios-xi-review-free-nagios-core-vs-nagios-xi/
 https://support.nagios.com/kb/article.php?id=12#_ga=2.160731198.261627644.1495111719-1583295747.1491300706
@@ -2142,6 +2174,9 @@ localectl list-keymaps
 localectl set-keymap us 
 localectl set-locale LANG=en_US.UTF-8
 mysql_secure_installation
+
+GRANT ALL ON *.* TO 'admin'@'localhost' IDENTIFIED BY 'Asterisk@2021' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
 
 
 ################### ------ Extending the Virtual Disk Size of a XenVM ----- #######################
