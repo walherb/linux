@@ -3046,3 +3046,53 @@ fold -w75 ~/.ssh/id_rsa.pub
 ssh remote_host "echo $(cat ~/.ssh/id_rsa.pub) >> ~/.ssh/authorized_keys"
 
 # ------------------- Stopped @ CHAPTER 15: Advanced Scripting ----------------------
+#!/usr/bin/env bash
+IPv4: /sbin/ifconfig -a | awk '/(cast)/ { print $2 }' | cut -d':' -f2 | head -1
+IPv6: /sbin/ifconfig -a | egrep 'inet6 addr: |address: ' | cut -d':' -f2- \
+wget -qO - http://ipinfo.io/ip/
+curl whatismyip.akamai.com
+for host in host1 host2 host3; do echo -n "On $host, I am: " ;
+> ssh $host 'whoami' ; done
+| cut -d'/' -f1 | head -1 | tr -d ' '
+PATH=$(PATH=/bin:/usr/bin getconf PATH)
+for ((i=0; i<10; i++)); do echo $i; done
+for i in {1..10}; do echo $i; done
+for i in $(seq 1 10); do echo $i; done
+
+# ------------------- Stopped @ CHAPTER 16: Configuring and Customizing bash ----------------------
+grep -l PATH ~/.[^.]*
+/etc/profile.d
+PATH="newdir:$PATH" or PATH="$PATH:newdir"
+export CDPATH='.:/etc'
+PATH="$PATH:~/bin"
+alias hs='history -a ; history -n'
+PROMPT_COMMAND='history -a ; history -n'
+alias bot='cd $(dirname $(find . | sort -r | tail -n 5 | head -1))'
+
+# ------------------- Stopped @ CHAPTER 16: Housekeeping and Administrative Tasks -----------------
+for i in *.odt; do mv "$i" "$(echo "$i" | cut -d'=' -f1,3)"; done
+unzip '*.zip' 	#Unzipping Many ZIP Files
+[ -n "$PS1" ] && clear
+for i in $(grep -El '#![[:space:]]?/bin/sh' *); do head -2 $i | tail -1; done
+printf "%b" '1i\nHeader Line1\nHeader Line2\n.\nw\nq\n' | ed -s data_file
+sudo bash -c 'command1 && command2 || command3'
+ps aux | grep '[s]sh' || ps aux | grep 'ssh' | grep -v grep
+ps -wwo pid,args -p 1394 | grep 'bin/sshd'
+pgrep -fa 'bin/[s]shd' ; echo $?
+last | awk "BEGIN { OFS=\"\t\" } ! /^\$/ { print \"$HOSTNAME\", \$0}"
+awk 'END { for (i=1; i <= 5; i++) print i, "text"}' /dev/null
+awk 'BEGIN { for (i=1; i <= 5; i+=.5) print i}' /dev/null
+printf "%s text\n" {1..5}
+printf "%s text\n" {a..e}
+LC_NUMERIC=en_US.UTF-8 printf "%'d\n" 123456789
+LC_NUMERIC=en_US.UTF-8 printf "%'f\n" 123456789.987
+
+
+# ------------------- Stopped @ CHAPTER 18: Working Faster by Typing Less -----------------
+!!:s/H/A/
+!!:gs/s/S/
+^-g -A^-gB^
+!$ !:1 !:2
+
+# ------------------- Stopped @ CHAPTER 18: Tips and Traps: Common Goofs for Novices -----------------
+bash -n my_script 

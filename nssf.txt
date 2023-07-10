@@ -12,15 +12,159 @@ OneDrive/Asterisk@21680
 5225110005416925390
 21138732/21138732 -- NWSC -- (29/09/2022 @15:38) -> +256313315594
 https://apps.nwsc.co.ug/online/Default.aspx
-0772527272
+0772527272 -- Lenovo ThinkPad P16 Intel Core i9-12900HX
 1113	2301435769E		Camoflage73/https://vacancies.psc.go.ug/ors
-John-Smilga-HTML: Stopped on { Video: 28 }
+La Casa de Papel/Money Heist
+John-Smilga-HTML: Stopped on { Video: 206 }
 John-Smilga: Stopped on { Video: 143 -> Matching Projects(12-13) : 227 }
+Full Stack Development with React and Node js - Expense Tracker Application. { Video: 4:05:31 }
+winget upgrade JanDeDobbeleer.OhMyPosh -s winget
+winget install JanDeDobbeleer.OhMyPosh -s winget
+https://github.com/alxnkt/mongo-to-postgres
+npm i mongo-to-postgres
+Create file migrate.js, set migration settings in it
+import migrate from 'mongo-to-postgres';
+
+migrate({
+  // Define connection strings
+  connections: {
+    mongo: 'mongodb://localhost/dbname',
+    postgres: 'postgres://postgres:secret@localhost:5432/dbname'
+  },
+  // Define your database migration settings
+  collections: [
+    {
+    collectionName: 'department',  // collection name in Mongo
+    tableName: 'departments',      // table name in Postgres
+    fieldsRename: [
+      ['createdAt', 'created_at'], // set new name for field (optional)
+      ['updatedAt', 'updated_at']  // set new name for other field (optional)
+    ],
+    fieldsRedefine: [
+      ['dep_type', 1]              // force to set value for all records (optional)
+    ]
+  },
+  {
+    collectionName: 'award',       // collection name in Mongo
+    tableName: 'awards',           // table name in Postgres
+  },
+  {
+    collectionName: 'employee',    // collection name in Mongo
+    tableName: 'employees',        // table name in Postgres
+    foreignKeys: {
+      department: 'department',    // foreign keys (field: collection) (optional)
+    },
+    links: {                       // "many-to-many" links
+      awards: ['emplyees__awards', 'employee_id', 'award_id']
+    }
+  }
+  ]
+});
+3. Set package.json "type" field
+{
+  "type": "module",
+  "dependencies": {
+    "mongo-to-postgres": "^0.0.5"
+  }
+}
+node migrate.js
+
+git config --global init.defaultBranch branch-name
+git checkout branch
+git switch branch
+git checkout -b new-branch
+
+
+--------------------- WinSxS -----------------------
+dism /Online /Cleanup-Image /AnalyzeComponentStore
+dism /online /Cleanup-Image /StartComponentCleanup
+
+PostgreSQL is Atomicity, Consistency, Isolation, and Durability (ACID) complaint
+mongoexport --host localhost --db employeedb --collection employees --type=csv --out employees.csv --fields name,position,country,specialization
+CREATE TABLE employees (
+id SERIAL PRIMARY KEY,
+name VARCHAR NOT NULL,
+position VARCHAR NOT NULL,
+country VARCHAR  NOT NULL,
+specialization VARCHAR  NOT NULL
+)
+COPY employees(name,position,country,specialization)
+FROM 'C:employees.csv' DELIMITER ',' CSV HEADER;
+Airbyte -- Data Migration from MongoDB to PostgreSQL 
 ICEA/04339-001-706329-006-1
 0770961687
+powercfg -h off
 GPS Car Tracker: {0706619663,0788160160} Qubern GPS Tracking Eseri Complex
+WinPE 11-10-8 Sergei Strelec 2023.06.25 {https://filecr.com/windows/winpe-sergei-strelec/?id=105265897000}
+
+196.43.144.128/32
+mongodb+srv://walherb:<password>@cluster0.ssovp0e.mongodb.net/?retryWrites=true&w=majority
+
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+running ~/.tmux/plugins/tmux-resurrect/scripts/save.sh works
+tmux list-keys | grep resurrect:
+
+Shift+Alt+A	editor.action.blockComment
+
+TailwindCSS + Vite 
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+use school 
+db.createCollection("students")
+Set VS Code as default merge tool
+git config --global merge.tool vscode
+git config --global mergetool.vscode.cmd 'code --wait $MERGED'
+Set VS Code as default diff tool
+git config --global diff.tool vscode
+git config --global difftool.vscode.cmd 'code --wait --diff $LOCAL $REMOTE'
+
+// import PropTypes from 'prop-types';
+// Nav.propTypes = {
+//   toggleDarkMode: PropTypes.func.isRequired,
+//   darkMode: PropTypes.bool.isRequired,
+// };
+
+0780604170 -- Nambi Evelyn - Lwanga Herbert 
+
+npm i -D tailwindcss
+npx tailwindcss init
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+content: ['./src/**/*.{html,js}', './index.html'],
+npx tailwindcss -i ./src/index.css -o ./dist/main.css --watch
+<link href="/dist/output.css" rel="stylesheet">
+<h1 class="text-3xl font-bold underline">
+"build": "tailwind -i ./input.css -o ./css/main.css"
+"watch": "tailwind -i ./input.css -o ./css/main.css  --watch"
+
+
+
+Github karan/Projects
+
+
 # Run the first Wednesday @ 23:00
 00 23 1-7 * Wed [ "$(date '+\%a')" == "Wed" ] && /path/to/command
+#!/usr/bin/env bash
+sudo bash -c 'command1 && command2 || command3'
+IPv4: /sbin/ifconfig -a | awk '/(cast)/ { print $2 }' | cut -d':' -f2 | head -1
+IPv6: /sbin/ifconfig -a | egrep 'inet6 addr: |address: ' | cut -d':' -f2- \
+wget -qO - http://ipinfo.io/ip/
+curl whatismyip.akamai.com
+for host in host1 host2 host3; do echo -n "On $host, I am: " ;
+> ssh $host 'whoami' ; done
+| cut -d'/' -f1 | head -1 | tr -d ' '
+PATH=$(PATH=/bin:/usr/bin getconf PATH)
+for ((i=0; i<10; i++)); do echo $i; done
+for i in {1..10}; do echo $i; done
+for i in $(seq 1 10); do echo $i; done
+sudo update-bintmts --dsiable cli 
+sudo rm /var/lib/binfmts/cli 
+https://www.reddit.com/r/bashonubuntuonwindows/comments/11vx61n/wsl2_error_cannot_execute_binary_file_exec_format/
+sudo vi /usr/lib/binfmt.d/WSLInterop.conf 
+:WSLInterop:M::MZ::/init:PF
+sudo systemctl restart systemd-binfmt
 
 Alt + Shift + =   {:Windows Terminal Vertically}
 Alt + Shift + -   {:Windows Terminal Horizantally}
@@ -68,6 +212,11 @@ CaskaydiaCove NF
 
 WSL2: Debian Explorer -> \\wsl$
 explorer.exe .
+
+// ✅ Memoized version of TodoItem using React.memo
+const TodoItem = React.memo(({text}) => {
+  return <div> {text} </div>
+}) 
 
 Step up your front-end skills with these 5 resources  
 https://frontendmentor.io
@@ -821,13 +970,11 @@ tsc --version
 3 - yrs back
 57:root
 
-
 mysqldump: [Warning] Using a password on the command line interface can be insecure.
 mysqldump: Got error: 1142: SELECT, LOCK TABLES command denied to user 'root'@'localhost' for table 'accounts' when using LOCK TABLES
 
 chattr -R +i  walusih/
 KYAMBOGO WEBSITE BACKUP 03 MARCH 2023'
-
 
 ----- 5 High Level Skills & Traits For Programmers --------
 1. Patience
@@ -876,7 +1023,6 @@ Step 2: List Topics
 Step 3: Learn the Topics 
 Step 4: Apply Your Knowledge
 Step 5: Repeat
-
 
 ---- The Self Taught Developer Checklist ----
 - General Programming
@@ -1531,7 +1677,7 @@ Mathew 5:44
 John 5:16
 Mathew 24:10
 
-0702932229 -> Elvis ZZimbe Surveyor 
+0702932229 -> Elvis Zzimbe Surveyor 
 
 To change the language open the language.txt file in data/i18n/ with notepad and change ru_RU to en_GB ;)
 
@@ -1540,7 +1686,6 @@ https://www.thegrapevine.co.ug/nakalema-probes-kyambogo-bosses-for-hijacking-gov
 DJ Erycom Mix on YouTube
 DJ Shotz 
 Pro Android Apps 
-Penis Enlargement Pdf Books @ E:\E\DOCS\Penis Exercises - A Healthy Book for Enlargement, Enhancement, Hardness, & Health 2013 -> Rob Michaels - Mantesh 
 -> Adult Jokes Book 
 -> E:\Torrents 
 -> TeraCopy   
@@ -1550,9 +1695,9 @@ Galatians 5:19
 
 https://www.internetdownloadmanager.com/register/new_faq/chrome_extension.html#:~:text=If%20you%20already%20added%20IDM,the%20image)%20for%20IDM%20extension.
 
-
 Powershell "(Get-WmiObject -query 'select * from SoftwareLicensingService').OA3xOriginalProductKey"
 *** Windows 10 Pro Product Key ***
+8MGNH-BCP8B-6PPXQ-JWC7H-3J3GP
 8MGNH-BCP8B-6PPXQ-JWC7H-3J3GP
 
 Your username is: walherb
